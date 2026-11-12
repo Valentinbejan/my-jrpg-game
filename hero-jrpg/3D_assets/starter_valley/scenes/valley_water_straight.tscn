@@ -1,0 +1,65 @@
+[gd_scene format=4]
+
+[ext_resource type="Script" path="res://3D_assets/starter_valley/scenes/asset_motion.gd" id="1_d48ex"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/models/valley_water_straight.glb" id="2_3vbrr"]
+[ext_resource type="Texture2D" path="res://3D_assets/starter_valley/models/valley_water_straight_valley_water.png" id="3_s5ry1"]
+[ext_resource type="Shader" path="res://3D_assets/starter_valley/materials/river.gdshader" id="4_usoos"]
+[ext_resource type="Texture2D" path="res://3D_assets/starter_valley/textures/valley_water.png" id="5_jge5b"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x5fgi"]
+resource_name = "Valley_water"
+cull_mode = 2
+albedo_texture = ExtResource("3_s5ry1")
+roughness = 0.38
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_52vqi"]
+_surfaces = [{
+"aabb": AABB(-3.45, 0, -4, 6.9, 1e-05, 8),
+"format": 34896613377,
+"index_count": 48,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAIABAACAAUABgAEAAUABgAFAAcACAAGAAcACAAHAAkACgAIAAkACgAJAAsADAAKAAsADAALAA0ADgAMAA0ADgANAA8AEAAOAA8AEAAPABEA"),
+"name": "Valley_water",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("//8AAP/fAAAAAAAA//8AAAAAAAD/3wAA//8AAP//AAD//wAA/78AAAAAAAD/vwAA//8AAP+fAAAAAAAA/58AAP//AAD/fwAAAAAAAP9/AAD//wAA/18AAAAAAAD/XwAA//8AAP8/AAAAAAAA/z8AAP//AAD/HwAAAAAAAP8fAAD//wAAAAAAAAAAAAAAAAAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_yuyxu"]
+resource_name = "__VALLEY_EXPORT_TEMP_valley_water_straight__River_Surface_mesh_003"
+_surfaces = [{
+"aabb": AABB(-3.45, 0, -4, 6.9, 1e-05, 8),
+"attribute_data": PackedByteArray("//+17QAA//8AALXt////////bNsAAGzb//8jyQAAI8n//9q2AADatv//kaQAAJGk//9IkgAASJL///9/AAD/f///tm0AALZt"),
+"format": 34896613399,
+"index_count": 48,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAIABAACAAUABgAEAAUABgAFAAcACAAGAAcACAAHAAkACgAIAAkACgAJAAsADAAKAAsADAALAA0ADgAMAA0ADgANAA8AEAAOAA8AEAAPABEA"),
+"material": SubResource("StandardMaterial3D_x5fgi"),
+"name": "Valley_water",
+"primitive": 3,
+"uv_scale": Vector4(2.3, 4.666667, 0, 0),
+"vertex_count": 18,
+"vertex_data": PackedByteArray("//8AAP/f/78AAAAA////vwAAAAD/3/+///8AAP///7///wAA/7//vwAAAAD/v/+///8AAP+f/78AAAAA/5//v///AAD/f/+/AAAAAP9//7///wAA/1//vwAAAAD/X/+///8AAP8//78AAAAA/z//v///AAD/H/+/AAAAAP8f/7///wAAAAD/vwAAAAAAAP+/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_52vqi")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g1xx6"]
+resource_name = "Valley_water"
+render_priority = 0
+shader = ExtResource("4_usoos")
+shader_parameter/painted_water = ExtResource("5_jge5b")
+shader_parameter/flow_speed = null
+
+[node name="valley_water_straight" type="Node3D" unique_id=746043811]
+script = ExtResource("1_d48ex")
+metadata/source_blend = "3D_assets/starter_valley/blender/assets/valley_water_straight.blend"
+
+[node name="__VALLEY_EXPORT_TEMP" type="Node3D" parent="." unique_id=682523732 instance=ExtResource("2_3vbrr")]
+
+[node name="valley_water_straight_002" type="Node3D" parent="__VALLEY_EXPORT_TEMP" unique_id=121999800]
+
+[node name="valley_water_straight__Valley_water" type="MeshInstance3D" parent="__VALLEY_EXPORT_TEMP/valley_water_straight_002" unique_id=1215268060]
+mesh = SubResource("ArrayMesh_yuyxu")
+surface_material_override/0 = SubResource("ShaderMaterial_g1xx6")

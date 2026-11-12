@@ -1,0 +1,795 @@
+[gd_scene format=3 uid="uid://dxs512iculwan"]
+
+[ext_resource type="Script" uid="uid://cy0e6mo1ftyef" path="res://3D_assets/starter_valley/scenes/preview.gd" id="1_bpccv"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_terrain.tscn" id="2_e70y2"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_district_paths.tscn" id="4_fyl4n"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_river.tscn" id="5_4bgdj"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_stone_bridge.tscn" id="6_hbpur"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_timber_bridge.tscn" id="7_fot72"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_inn.tscn" id="8_u7m01"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_shop.tscn" id="9_t3k57"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_cottage_a.tscn" id="10_fygga"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_cottage_b.tscn" id="11_a5jlu"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_cottage_c.tscn" id="12_8vbal"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_watermill.tscn" id="13_5e77u"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_hill_fortress.tscn" id="14_2m0it"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_sluice.tscn" id="15_1ye5u"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_landing.tscn" id="16_5ug0l"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_water_cascade.tscn" id="17_scapt"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_well.tscn" id="18_wo62c"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_bench.tscn" id="19_x3b8o"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_signpost.tscn" id="20_llpy2"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_handcart.tscn" id="21_4yjsd"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_barrel.tscn" id="22_gkx5i"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_crate_b.tscn" id="23_ybucl"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_flower_box.tscn" id="24_grwim"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_firewood.tscn" id="25_jfgjx"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_fence_straight.tscn" id="26_pw4ah"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_fence_gate.tscn" id="27_8ftxi"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_broadleaf_a.tscn" id="28_fi44o"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_broadleaf_b.tscn" id="29_h5bo5"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_broadleaf_c.tscn" id="30_fb8y6"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_orchard_a.tscn" id="31_gvl8p"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_orchard_b.tscn" id="32_0mkg3"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_willow_b.tscn" id="33_atuxf"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_tree_willow_a.tscn" id="34_q6vgt"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_reed_patch_a.tscn" id="35_41yl4"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_reed_patch_b.tscn" id="36_w1nxs"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_shrub_c.tscn" id="37_q33je"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_rock_b.tscn" id="38_hu7c7"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_rock_e.tscn" id="39_w5np4"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_shrub_b.tscn" id="40_7lomb"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_rock_a.tscn" id="41_m4opl"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_rock_d.tscn" id="42_p242e"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_rock_c.tscn" id="43_fb2yv"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_flower_patch_a.tscn" id="44_vh2c2"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_flower_patch_b.tscn" id="45_chc5h"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_grass_patch_a.tscn" id="46_2klud"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/scenes/valley_grass_patch_b.tscn" id="47_vi6t0"]
+
+[sub_resource type="Environment" id="Environment_rju2b"]
+background_mode = 1
+background_color = Color(0.69411767, 0.79607844, 0.81960785, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.88235295, 0.92941177, 0.8666667, 1)
+ambient_light_energy = 0.65
+tonemap_mode = 2
+
+[node name="StarterValley" type="Node3D" unique_id=464276707]
+script = ExtResource("1_bpccv")
+
+[node name="District" type="Node3D" parent="." unique_id=2133058339]
+
+[node name="valley_terrain" parent="District" unique_id=1503008144 instance=ExtResource("2_e70y2")]
+
+[node name="valley_district_paths" parent="District" unique_id=1378998179 instance=ExtResource("4_fyl4n")]
+
+[node name="valley_river" parent="District" unique_id=269020629 instance=ExtResource("5_4bgdj")]
+
+[node name="valley_stone_bridge" parent="District" unique_id=997462112 instance=ExtResource("6_hbpur")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.543296, -1.6, 18)
+
+[node name="valley_timber_bridge" parent="District" unique_id=191137794 instance=ExtResource("7_fot72")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.4885406, 0.03, -38)
+
+[node name="valley_inn" parent="District" unique_id=1369884474 instance=ExtResource("8_u7m01")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25, 0.24, 14)
+
+[node name="valley_shop" parent="District" unique_id=381213411 instance=ExtResource("9_t3k57")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -29, 0.24, 1)
+
+[node name="valley_cottage_a" parent="District" unique_id=193887036 instance=ExtResource("10_fygga")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25, 0.24, 28)
+
+[node name="valley_cottage_b" parent="District" unique_id=1644142591 instance=ExtResource("11_a5jlu")]
+transform = Transform3D(0.9689124, 0, 0.24740396, 0, 1, 0, -0.24740396, 0, 0.9689124, -39, 0.24, 23)
+
+[node name="valley_cottage_c" parent="District" unique_id=963079535 instance=ExtResource("12_8vbal")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -37, 0.24, 9)
+
+[node name="valley_watermill" parent="District" unique_id=1614044781 instance=ExtResource("13_5e77u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4, 0.24, -24)
+
+[node name="valley_cottage_a2" parent="District" unique_id=77930473 instance=ExtResource("10_fygga")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 24, 0.24, -13)
+
+[node name="valley_cottage_b2" parent="District" unique_id=1228842778 instance=ExtResource("11_a5jlu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 28, 0.24, -28)
+
+[node name="valley_cottage_c2" parent="District" unique_id=1469581720 instance=ExtResource("12_8vbal")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 36, 0.24, -18)
+
+[node name="valley_hill_fortress" parent="District" unique_id=1566326907 instance=ExtResource("14_2m0it")]
+transform = Transform3D(0.9800666, 0, -0.19866933, 0, 1, 0, 0.19866933, 0, 0.9800666, -37, 5, -43)
+
+[node name="valley_sluice" parent="District" unique_id=920875212 instance=ExtResource("15_1ye5u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25, -0.7, -29.5)
+
+[node name="valley_landing" parent="District" unique_id=1524590496 instance=ExtResource("16_5ug0l")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.7975269, -0.3, 32)
+
+[node name="valley_water_cascade" parent="District" unique_id=1969385496 instance=ExtResource("17_scapt")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 4.2, 0.45, -28.3)
+
+[node name="valley_well" parent="District" unique_id=1641466805 instance=ExtResource("18_wo62c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0.24, 6)
+
+[node name="valley_well2" parent="District" unique_id=289160885 instance=ExtResource("18_wo62c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0.24, -19.5)
+
+[node name="valley_bench" parent="District" unique_id=292691017 instance=ExtResource("19_x3b8o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5, 0.24, 21)
+
+[node name="valley_bench2" parent="District" unique_id=66804061 instance=ExtResource("19_x3b8o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0.24, 6)
+
+[node name="valley_bench3" parent="District" unique_id=491477188 instance=ExtResource("19_x3b8o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 18, 0.24, -16)
+
+[node name="valley_bench4" parent="District" unique_id=1436557213 instance=ExtResource("19_x3b8o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, 0.90256953, -41)
+
+[node name="valley_signpost" parent="District" unique_id=126695683 instance=ExtResource("20_llpy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0.24, 22.8)
+
+[node name="valley_signpost2" parent="District" unique_id=1073664116 instance=ExtResource("20_llpy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0.90256953, -41)
+
+[node name="valley_signpost3" parent="District" unique_id=1500939723 instance=ExtResource("20_llpy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0.24, -4)
+
+[node name="valley_signpost4" parent="District" unique_id=511501910 instance=ExtResource("20_llpy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0.24, -25.3)
+
+[node name="valley_handcart" parent="District" unique_id=168833768 instance=ExtResource("21_4yjsd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0.24, 27)
+
+[node name="valley_handcart2" parent="District" unique_id=782943768 instance=ExtResource("21_4yjsd")]
+transform = Transform3D(0.4535961, 0, 0.8912074, 0, 1, 0, -0.8912074, 0, 0.4535961, -30, 0.9195492, -5)
+
+[node name="valley_handcart3" parent="District" unique_id=534186501 instance=ExtResource("21_4yjsd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 1.3264678, -31)
+
+[node name="valley_barrel" parent="District" unique_id=562855702 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -23.25, 0.24, 19.25)
+
+[node name="valley_crate_b" parent="District" unique_id=8588464 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -24.35, 0.24, 19.25)
+
+[node name="valley_flower_box" parent="District" unique_id=1602263584 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -19, 0.24, 16.72)
+
+[node name="valley_firewood" parent="District" unique_id=1066396461 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -29.5, 0.24, 14)
+
+[node name="valley_barrel2" parent="District" unique_id=585828631 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -27.55, 0.24, 5.4)
+
+[node name="valley_crate_b2" parent="District" unique_id=2114813438 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -28.65, 0.24, 5.4)
+
+[node name="valley_flower_box2" parent="District" unique_id=1477036330 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25.3, 0.24, 3.176)
+
+[node name="valley_firewood2" parent="District" unique_id=1168326094 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -32.9, 0.24, 1)
+
+[node name="valley_barrel3" parent="District" unique_id=1784737378 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -23.75, 0.24, 24)
+
+[node name="valley_crate_b3" parent="District" unique_id=125515769 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -24.85, 0.24, 24)
+
+[node name="valley_flower_box3" parent="District" unique_id=255509534 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -21.7, 0.24, 29.92)
+
+[node name="valley_firewood3" parent="District" unique_id=812456940 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -28.5, 0.24, 28)
+
+[node name="valley_barrel4" parent="District" unique_id=1930271606 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(0.9689124, 0, 0.24740396, 0, 1, 0, -0.24740396, 0, 0.9689124, -42.66225, 0.24, 25.43165)
+
+[node name="valley_crate_b4" parent="District" unique_id=514373960 instance=ExtResource("23_ybucl")]
+transform = Transform3D(0.9689124, 0, 0.24740396, 0, 1, 0, -0.24740396, 0, 0.9689124, -42.934395, 0.24, 24.365847)
+
+[node name="valley_flower_box4" parent="District" unique_id=579182312 instance=ExtResource("24_grwim")]
+transform = Transform3D(0.9689124, 0, 0.24740396, 0, 1, 0, -0.24740396, 0, 0.9689124, -40.037933, 0.24, 27.083742)
+
+[node name="valley_firewood4" parent="District" unique_id=317031611 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(0.9689124, 0, 0.24740396, 0, 1, 0, -0.24740396, 0, 0.9689124, -39.964874, 0.24, 19.221241)
+
+[node name="valley_barrel5" parent="District" unique_id=1369831730 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -35.7, 0.24, 12.85)
+
+[node name="valley_crate_b5" parent="District" unique_id=1736927303 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -36.8, 0.24, 12.85)
+
+[node name="valley_flower_box5" parent="District" unique_id=228775212 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -31.8, 0.24, 10.824)
+
+[node name="valley_firewood5" parent="District" unique_id=732648028 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -40.6, 0.24, 9)
+
+[node name="valley_barrel6" parent="District" unique_id=1414086117 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 22.75, 0.24, -9)
+
+[node name="valley_crate_b6" parent="District" unique_id=110761061 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 23.85, 0.24, -9)
+
+[node name="valley_flower_box6" parent="District" unique_id=400350025 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 20.7, 0.24, -14.92)
+
+[node name="valley_firewood6" parent="District" unique_id=276955619 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 27.5, 0.24, -13)
+
+[node name="valley_barrel7" parent="District" unique_id=1565142986 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 26.55, 0.24, -32.15)
+
+[node name="valley_crate_b7" parent="District" unique_id=1494591562 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 27.65, 0.24, -32.15)
+
+[node name="valley_flower_box7" parent="District" unique_id=1978548549 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 24.3, 0.24, -30.016)
+
+[node name="valley_firewood7" parent="District" unique_id=1532999784 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 31.9, 0.24, -28)
+
+[node name="valley_barrel8" parent="District" unique_id=1173578572 instance=ExtResource("22_gkx5i")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 34.7, 0.24, -21.85)
+
+[node name="valley_crate_b8" parent="District" unique_id=1825637752 instance=ExtResource("23_ybucl")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 35.8, 0.24, -21.85)
+
+[node name="valley_flower_box8" parent="District" unique_id=1444784050 instance=ExtResource("24_grwim")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 30.8, 0.24, -19.824)
+
+[node name="valley_firewood8" parent="District" unique_id=1608316856 instance=ExtResource("25_jfgjx")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 39.6, 2.6744986, -18)
+
+[node name="valley_fence_straight" parent="District" unique_id=779375374 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42, 2.964761, 32)
+
+[node name="valley_fence_straight2" parent="District" unique_id=1034444289 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39, 0.98859745, 32)
+
+[node name="valley_fence_straight3" parent="District" unique_id=891380859 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0.24, 32)
+
+[node name="valley_fence_straight4" parent="District" unique_id=605114901 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 0.24, 32)
+
+[node name="valley_fence_straight5" parent="District" unique_id=811358591 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27, 0.24, 32)
+
+[node name="valley_fence_straight6" parent="District" unique_id=1851020262 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 0.24, 32)
+
+[node name="valley_fence_straight7" parent="District" unique_id=996326017 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0.24, 32)
+
+[node name="valley_fence_straight8" parent="District" unique_id=1018226311 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0.24474633, -35)
+
+[node name="valley_fence_straight9" parent="District" unique_id=428774940 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0.24466783, -35)
+
+[node name="valley_fence_straight10" parent="District" unique_id=1860476499 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27, 0.38807255, -35)
+
+[node name="valley_fence_straight11" parent="District" unique_id=1570082972 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0.9177201, -35)
+
+[node name="valley_fence_straight12" parent="District" unique_id=1370076547 instance=ExtResource("26_pw4ah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33, 2.0424998, -35)
+
+[node name="valley_fence_gate" parent="District" unique_id=1078284126 instance=ExtResource("27_8ftxi")]
+transform = Transform3D(1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -30, 0.24, 32)
+
+[node name="valley_tree_broadleaf_a" parent="District" unique_id=1416196180 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.00051858765, 0, 1.0907292, 0, 1.0907294, 0, -1.0907292, 0, -0.00051858765, -46, 0.7846299, 12)
+
+[node name="valley_tree_broadleaf_b" parent="District" unique_id=1051172066 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.8124463, 0, 0.028486604, 0, 0.81294554, 0, -0.028486604, 0, -0.8124463, -43, 5.1256833, -6)
+
+[node name="valley_tree_broadleaf_c" parent="District" unique_id=883699587 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.2244685, 0, -0.8522667, 0, 0.8813312, 0, 0.8522667, 0, 0.2244685, -22, 0.40569288, -10)
+
+[node name="valley_tree_broadleaf_a2" parent="District" unique_id=572776887 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.8358675, 0, 0.20652924, 0, 0.8610046, 0, -0.20652924, 0, 0.8358675, -34, 4.5241766, -23)
+
+[node name="valley_tree_broadleaf_b2" parent="District" unique_id=985212022 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.44770864, 0, -0.7415894, 0, 0.86625504, 0, 0.7415894, 0, 0.44770864, 12, 0.34196484, 35)
+
+[node name="valley_tree_broadleaf_c2" parent="District" unique_id=1847043410 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.51243, 0, -0.6611664, 0, 0.83649606, 0, 0.6611664, 0, 0.51243, 17, 0.24, 29)
+
+[node name="valley_tree_broadleaf_a3" parent="District" unique_id=1259908705 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.5212069, 0, 0.73743254, 0, 0.90303016, 0, -0.73743254, 0, -0.5212069, 29, 1.9562595, 5)
+
+[node name="valley_tree_broadleaf_b3" parent="District" unique_id=149029579 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.6431518, 0, 0.7178764, 0, 0.9638417, 0, -0.7178764, 0, -0.6431518, 41, 4.6739125, -2)
+
+[node name="valley_tree_broadleaf_c3" parent="District" unique_id=361162062 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.28216273, 0, 0.7835517, 0, 0.83280796, 0, -0.7835517, 0, -0.28216273, 40, 4.8606763, -35)
+
+[node name="valley_tree_broadleaf_a4" parent="District" unique_id=1467786391 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.81351554, 0, -0.2150482, 0, 0.84145904, 0, 0.2150482, 0, -0.81351554, -19, 3.746479, -34)
+
+[node name="valley_tree_orchard_a" parent="District" unique_id=1365391462 instance=ExtResource("31_gvl8p")]
+transform = Transform3D(0.23343939, 0, 0.8173164, 0, 0.85, 0, -0.8173164, 0, 0.23343939, -39, 4.937436, 39)
+
+[node name="valley_tree_orchard_b" parent="District" unique_id=1457211320 instance=ExtResource("32_0mkg3")]
+transform = Transform3D(-0.3464452, 0, 0.77619314, 0, 0.85, 0, -0.77619314, 0, -0.3464452, -34, 3.4065251, 39)
+
+[node name="valley_tree_orchard_a2" parent="District" unique_id=1077150081 instance=ExtResource("31_gvl8p")]
+transform = Transform3D(-0.29685375, 0, 0.79647845, 0, 0.85, 0, -0.79647845, 0, -0.29685375, -29, 1.7815919, 39)
+
+[node name="valley_tree_orchard_b2" parent="District" unique_id=1948907578 instance=ExtResource("32_0mkg3")]
+transform = Transform3D(0.7385562, 0, -0.42075503, 0, 0.85, 0, 0.42075503, 0, 0.7385562, -24, 0.99883825, 39)
+
+[node name="valley_tree_orchard_a3" parent="District" unique_id=1449431813 instance=ExtResource("31_gvl8p")]
+transform = Transform3D(-0.012198585, 0, 0.84991246, 0, 0.85, 0, -0.84991246, 0, -0.012198585, -39, 2.2963524, 34)
+
+[node name="valley_tree_orchard_b3" parent="District" unique_id=1830832095 instance=ExtResource("32_0mkg3")]
+transform = Transform3D(-0.8431275, 0, 0.107870325, 0, 0.85, 0, -0.107870325, 0, -0.8431275, -34, 0.3977534, 34)
+
+[node name="valley_tree_orchard_a4" parent="District" unique_id=197350646 instance=ExtResource("31_gvl8p")]
+transform = Transform3D(-0.31364065, 0, 0.79001874, 0, 0.85, 0, -0.79001874, 0, -0.31364065, -29, 0.24, 34)
+
+[node name="valley_tree_orchard_b4" parent="District" unique_id=1247440459 instance=ExtResource("32_0mkg3")]
+transform = Transform3D(0.12058419, 0, 0.84140325, 0, 0.85, 0, -0.84140325, 0, 0.12058419, -24, 0.24, 34)
+
+[node name="valley_tree_willow_b" parent="District" unique_id=1434878008 instance=ExtResource("33_atuxf")]
+transform = Transform3D(0.8161739, 0, 0.23740293, 0, 0.85, 0, -0.23740293, 0, 0.8161739, 1.326075, 0.79327667, 40)
+
+[node name="valley_tree_willow_a" parent="District" unique_id=544203642 instance=ExtResource("34_q6vgt")]
+transform = Transform3D(0.5284742, 0, 0.665744, 0, 0.85, 0, -0.665744, 0, 0.5284742, 5.165057, 0.24, 5)
+
+[node name="valley_tree_willow_b2" parent="District" unique_id=69941560 instance=ExtResource("33_atuxf")]
+transform = Transform3D(0.5197725, 0, 0.67255974, 0, 0.85, 0, -0.67255974, 0, 0.5197725, 8.858626, 0.24, -8)
+
+[node name="valley_tree_willow_a2" parent="District" unique_id=1664983557 instance=ExtResource("34_q6vgt")]
+transform = Transform3D(0.60969275, 0, 0.59226245, 0, 0.85, 0, -0.59226245, 0, 0.60969275, 11.454013, 1.1354885, -43)
+
+[node name="valley_tree_broadleaf_a5" parent="District" unique_id=598688043 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.44888175, 0, 1.1465986, 0, 1.2313339, 0, -1.1465986, 0, 0.44888175, 44.13827, 6.008517, 3.8233335)
+
+[node name="valley_tree_broadleaf_b4" parent="District" unique_id=1984175231 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.5688771, 0, 0.79841095, 0, 0.98034745, 0, -0.79841095, 0, -0.5688771, -50.15103, 8.094606, 9.886844)
+
+[node name="valley_tree_broadleaf_c4" parent="District" unique_id=493542491 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.32739425, 0, 1.0915171, 0, 1.1395599, 0, -1.0915171, 0, -0.32739425, 44.106056, 5.286841, 32.46709)
+
+[node name="valley_tree_broadleaf_a6" parent="District" unique_id=1818197096 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.25506297, 0, -1.2305144, 0, 1.2566713, 0, 1.2305144, 0, -0.25506297, -45.473217, 6.8663425, 37.179752)
+
+[node name="valley_tree_broadleaf_b5" parent="District" unique_id=763479556 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.9469651, 0, 0.21616462, 0, 0.97132385, 0, -0.21616462, 0, 0.9469651, 59.796516, 10.194661, 34.990307)
+
+[node name="valley_tree_broadleaf_c5" parent="District" unique_id=1969581037 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(1.1821886, 0, -0.37025464, 0, 1.2388134, 0, 0.37025464, 0, 1.1821886, -58.891003, 9.716054, -18.970266)
+
+[node name="valley_tree_broadleaf_a7" parent="District" unique_id=757526598 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.3477803, 0, 0.81446624, 0, 0.88561076, 0, -0.81446624, 0, -0.3477803, 50.196907, 7.687568, -12.736008)
+
+[node name="valley_tree_broadleaf_b6" parent="District" unique_id=1239912559 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.47176567, 0, 0.67453915, 0, 0.8231439, 0, -0.67453915, 0, -0.47176567, -44.713135, 6.205629, 35.070118)
+
+[node name="valley_tree_broadleaf_c6" parent="District" unique_id=1106464516 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.050998796, 0, -1.207892, 0, 1.208968, 0, 1.207892, 0, -0.050998796, 57.59397, 10.257237, -41.665955)
+
+[node name="valley_tree_broadleaf_a8" parent="District" unique_id=572391867 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.45762053, 0, 0.9967014, 0, 1.0967362, 0, -0.9967014, 0, -0.45762053, -54.130135, 10.038403, 36.189484)
+
+[node name="valley_tree_broadleaf_b7" parent="District" unique_id=522135334 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(1.024808, 0, -0.44359472, 0, 1.116695, 0, 0.44359472, 0, 1.024808, 44.8214, 5.4902763, 32.857777)
+
+[node name="valley_tree_broadleaf_c7" parent="District" unique_id=1565388378 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.20174058, 0, 0.81901455, 0, 0.84349513, 0, -0.81901455, 0, 0.20174058, -51.74108, 9.8930645, 42.79275)
+
+[node name="valley_tree_broadleaf_a9" parent="District" unique_id=1908727799 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-1.1346332, 0, 0.522534, 0, 1.2491734, 0, -0.522534, 0, -1.1346332, 51.747093, 7.644381, 29.554647)
+
+[node name="valley_tree_broadleaf_b8" parent="District" unique_id=512142480 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(1.0968703, 0, -0.22143374, 0, 1.1189984, 0, 0.22143374, 0, 1.0968703, -50.153835, 6.6633167, 13.5152645)
+
+[node name="valley_tree_broadleaf_c8" parent="District" unique_id=546148862 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.40440127, 0, 1.132346, 0, 1.2023926, 0, -1.132346, 0, 0.40440127, 53.31717, 11.177536, 48.99827)
+
+[node name="valley_tree_broadleaf_a10" parent="District" unique_id=1602504807 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.1934745, 0, 1.2162884, 0, 1.2315803, 0, -1.2162884, 0, 0.1934745, -47.36681, 3.8214536, 24.383156)
+
+[node name="valley_tree_broadleaf_b9" parent="District" unique_id=1985081783 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.93603075, 0, 0.76978403, 0, 1.211908, 0, -0.76978403, 0, 0.93603075, 48.303078, 7.741628, -27.13256)
+
+[node name="valley_tree_broadleaf_a11" parent="District" unique_id=748375439 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.24799033, 0, 1.1370203, 0, 1.1637502, 0, -1.1370203, 0, 0.24799033, 45.02539, 5.4940906, -5.9073305)
+
+[node name="valley_tree_broadleaf_b10" parent="District" unique_id=2091127595 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.7197054, 0, 0.34915638, 0, 0.7999288, 0, -0.34915638, 0, 0.7197054, -53.55767, 5.91958, -32.581852)
+
+[node name="valley_tree_broadleaf_c9" parent="District" unique_id=901280075 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.6000025, 0, -0.8484043, 0, 1.0391308, 0, 0.8484043, 0, -0.6000025, 48.53853, 6.550991, -2.661713)
+
+[node name="valley_tree_broadleaf_a12" parent="District" unique_id=1996990817 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.7277662, 0, -0.27139658, 0, 0.77672374, 0, 0.27139658, 0, 0.7277662, -52.31393, 5, -35.376686)
+
+[node name="valley_tree_broadleaf_b11" parent="District" unique_id=722403203 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.25501007, 0, -0.92566514, 0, 0.960149, 0, 0.92566514, 0, -0.25501007, 57.25986, 11.087524, -17.640272)
+
+[node name="valley_tree_broadleaf_c10" parent="District" unique_id=195058523 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.7927105, 0, 0.2204856, 0, 0.8228024, 0, -0.2204856, 0, 0.7927105, -50.641834, 7.4231396, 13.842702)
+
+[node name="valley_tree_broadleaf_a13" parent="District" unique_id=1228166744 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.8287553, 0, -0.60127795, 0, 1.0238997, 0, 0.60127795, 0, -0.8287553, 57.205994, 9.973102, 40.255108)
+
+[node name="valley_tree_broadleaf_c11" parent="District" unique_id=1382926848 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.38050762, 0, -0.7883098, 0, 0.87533903, 0, 0.7883098, 0, 0.38050762, 47.859997, 9.103479, 47.380127)
+
+[node name="valley_tree_broadleaf_a14" parent="District" unique_id=158098024 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.8716622, 0, 0.7773543, 0, 1.1679361, 0, -0.7773543, 0, 0.8716622, -52.464413, 9.308326, 1.0823532)
+
+[node name="valley_tree_broadleaf_b12" parent="District" unique_id=1395061735 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.035592042, 0, 0.86044776, 0, 0.8611836, 0, -0.86044776, 0, -0.035592042, 58.590706, 9.617759, -0.6089947)
+
+[node name="valley_tree_broadleaf_c12" parent="District" unique_id=669481900 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.3312508, 0, 1.1541125, 0, 1.2007092, 0, -1.1541125, 0, -0.3312508, -48.636753, 6.7060137, 27.493038)
+
+[node name="valley_tree_broadleaf_a15" parent="District" unique_id=427453752 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.39063433, 0, 1.1241717, 0, 1.1901081, 0, -1.1241717, 0, 0.39063433, 48.712646, 9.248032, 46.780857)
+
+[node name="valley_tree_broadleaf_c13" parent="District" unique_id=1387996144 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.75353694, 0, 0.33130622, 0, 0.82315356, 0, -0.33130622, 0, 0.75353694, 46.170036, 5.937933, -2.3488965)
+
+[node name="valley_tree_broadleaf_a16" parent="District" unique_id=215448366 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.705352, 0, 0.8239654, 0, 1.0846384, 0, -0.8239654, 0, 0.705352, -53.16784, 9.8561325, 37.49648)
+
+[node name="valley_tree_broadleaf_b13" parent="District" unique_id=485718203 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.55524576, 0, 0.55455226, 0, 0.7847459, 0, -0.55455226, 0, 0.55524576, 45.882957, 5.7358475, 30.258923)
+
+[node name="valley_tree_broadleaf_c14" parent="District" unique_id=1897104840 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(1.0263549, 0, 0.7379929, 0, 1.2641352, 0, -0.7379929, 0, 1.0263549, -46.050056, 8.136357, 44.232388)
+
+[node name="valley_tree_broadleaf_a17" parent="District" unique_id=379716326 instance=ExtResource("28_fi44o")]
+transform = Transform3D(1.2324826, 0, -0.023909565, 0, 1.2327144, 0, 0.023909565, 0, 1.2324826, 53.017723, 8.366563, 4.096114)
+
+[node name="valley_tree_broadleaf_c15" parent="District" unique_id=1631856088 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.7342874, 0, -0.28572702, 0, 0.78791994, 0, 0.28572702, 0, -0.7342874, 56.490833, 10.519936, -24.556501)
+
+[node name="valley_tree_broadleaf_a18" parent="District" unique_id=1490315070 instance=ExtResource("28_fi44o")]
+transform = Transform3D(1.0294789, 0, -0.030168965, 0, 1.0299208, 0, 0.030168965, 0, 1.0294789, -47.246136, 3.205705, 10.069268)
+
+[node name="valley_tree_broadleaf_b14" parent="District" unique_id=1147546548 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(0.02886902, 0, -0.8023733, 0, 0.8028925, 0, 0.8023733, 0, 0.02886902, 44.400818, 6.2963953, 6.1389656)
+
+[node name="valley_tree_broadleaf_c16" parent="District" unique_id=764338923 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.9915735, 0, 0.76971924, 0, 1.2552632, 0, -0.76971924, 0, -0.9915735, -44.042473, 5.1207647, 0.2849669)
+
+[node name="valley_tree_broadleaf_a19" parent="District" unique_id=1821680899 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.59209955, 0, -1.101781, 0, 1.2508011, 0, 1.101781, 0, 0.59209955, 58.92656, 9.883844, -34.21454)
+
+[node name="valley_tree_broadleaf_b15" parent="District" unique_id=881255164 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.5965536, 0, -1.0278846, 0, 1.188454, 0, 1.0278846, 0, -0.5965536, -44.719025, 5, -34.720318)
+
+[node name="valley_tree_broadleaf_c17" parent="District" unique_id=1851188515 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(0.39504236, 0, 0.92308545, 0, 1.0040643, 0, -0.92308545, 0, 0.39504236, 50.997524, 7.438722, -8.054179)
+
+[node name="valley_tree_broadleaf_a20" parent="District" unique_id=63449874 instance=ExtResource("28_fi44o")]
+transform = Transform3D(0.80212045, 0, 0.4692144, 0, 0.92927897, 0, -0.4692144, 0, 0.80212045, -49.661106, 8.700509, 38.713093)
+
+[node name="valley_tree_broadleaf_b16" parent="District" unique_id=2058699120 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.8649644, 0, -0.44635916, 0, 0.97334474, 0, 0.44635916, 0, -0.8649644, 44.769016, 5.92914, 22.160677)
+
+[node name="valley_tree_broadleaf_a21" parent="District" unique_id=312300097 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.78852063, 0, 0.82311046, 0, 1.1398578, 0, -0.82311046, 0, -0.78852063, 54.90839, 9.913589, 21.81914)
+
+[node name="valley_tree_broadleaf_b17" parent="District" unique_id=1151582509 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.60363567, 0, 1.0094776, 0, 1.1761892, 0, -1.0094776, 0, -0.60363567, -57.103592, 9.724788, 12.433676)
+
+[node name="valley_tree_broadleaf_c18" parent="District" unique_id=732626574 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(1.2274045, 0, -0.41700357, 0, 1.2963077, 0, 0.41700357, 0, 1.2274045, 55.413902, 8.627396, -3.174481)
+
+[node name="valley_tree_broadleaf_a22" parent="District" unique_id=120710491 instance=ExtResource("28_fi44o")]
+transform = Transform3D(-0.19743478, 0, -1.0492969, 0, 1.0677099, 0, 1.0492969, 0, -0.19743478, -50.46191, 7.2861824, 26.92424)
+
+[node name="valley_tree_broadleaf_b18" parent="District" unique_id=1583883289 instance=ExtResource("29_h5bo5")]
+transform = Transform3D(-0.48761314, 0, 0.6574266, 0, 0.8185208, 0, -0.6574266, 0, -0.48761314, 44.501953, 6.4414344, 7.6630716)
+
+[node name="valley_tree_broadleaf_c19" parent="District" unique_id=1664196483 instance=ExtResource("30_fb8y6")]
+transform = Transform3D(-0.64652556, 0, -0.74507433, 0, 0.98647404, 0, 0.74507433, 0, -0.64652556, -52.359604, 6.673345, -28.108984)
+
+[node name="valley_reed_patch_a" parent="District" unique_id=720538690 instance=ExtResource("35_41yl4")]
+transform = Transform3D(1.1884451, 0, -0.19494304, 0, 1.2043275, 0, 0.19494304, 0, 1.1884451, 1.3999857, 0.65073293, 38.613827)
+
+[node name="valley_reed_patch_a2" parent="District" unique_id=1557712700 instance=ExtResource("35_41yl4")]
+transform = Transform3D(1.1770751, 0, -0.4153136, 0, 1.2481953, 0, 0.4153136, 0, 1.1770751, 9.356958, 1.85204, -48.456917)
+
+[node name="valley_reed_patch_b" parent="District" unique_id=1565610976 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.9244741, 0, 0.3873558, 0, 1.0023457, 0, -0.3873558, 0, 0.9244741, -11.212682, 1.3837788, 44.98747)
+
+[node name="valley_reed_patch_a3" parent="District" unique_id=1529204136 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.97621214, 0, 0.5903548, 0, 1.140837, 0, -0.5903548, 0, 0.97621214, 1.2877055, 1.3314794, 44.57899)
+
+[node name="valley_reed_patch_b2" parent="District" unique_id=1834770935 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.63603264, 0, -0.7703188, 0, 0.9989638, 0, 0.7703188, 0, 0.63603264, -3.5141547, 0.24, -4.9259253)
+
+[node name="valley_reed_patch_a4" parent="District" unique_id=505285396 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.83411944, 0, 0.41288748, 0, 0.9307155, 0, -0.41288748, 0, -0.83411944, -4.921727, 0.24, -2.436341)
+
+[node name="valley_reed_patch_a5" parent="District" unique_id=263841938 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.9309725, 0, -0.72187054, 0, 1.1780522, 0, 0.72187054, 0, 0.9309725, 1.8298208, 0.24, 10.286489)
+
+[node name="valley_reed_patch_b3" parent="District" unique_id=965236110 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.91342956, 0, 0.6840607, 0, 1.1411804, 0, -0.6840607, 0, 0.91342956, 10.462792, 1.5040659, -45.909103)
+
+[node name="valley_reed_patch_b4" parent="District" unique_id=300749351 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(-0.22636966, 0, -0.9390949, 0, 0.965993, 0, 0.9390949, 0, -0.22636966, 0.2404781, 0.26295158, -33.79226)
+
+[node name="valley_reed_patch_a6" parent="District" unique_id=1857599192 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-1.0215974, 0, -0.18157838, 0, 1.0376087, 0, 0.18157838, 0, -1.0215974, 0.9638451, 0.24, 30.77823)
+
+[node name="valley_reed_patch_b5" parent="District" unique_id=1218083759 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(-0.23288254, 0, -1.0290085, 0, 1.0550321, 0, 1.0290085, 0, -0.23288254, -12.480142, 0.7048168, 39.152523)
+
+[node name="valley_reed_patch_b6" parent="District" unique_id=99913665 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.738925, 0, -0.9628639, 0, 1.2137203, 0, 0.9628639, 0, 0.738925, -4.6573086, 0.24, -4.0752664)
+
+[node name="valley_reed_patch_a7" parent="District" unique_id=627178411 instance=ExtResource("35_41yl4")]
+transform = Transform3D(1.0611831, 0, 0.49619886, 0, 1.1714618, 0, -0.49619886, 0, 1.0611831, 11.688232, 0.24, -21.038872)
+
+[node name="valley_reed_patch_a8" parent="District" unique_id=2095576833 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.6283723, 0, -0.85153073, 0, 1.0582799, 0, 0.85153073, 0, -0.6283723, -10.746315, 1.5097281, 45.951912)
+
+[node name="valley_reed_patch_b7" parent="District" unique_id=1109336364 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.34378797, 0, -1.0343482, 0, 1.0899847, 0, 1.0343482, 0, 0.34378797, 11.916189, 0.24, -29.601904)
+
+[node name="valley_reed_patch_a9" parent="District" unique_id=788564271 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.9258819, 0, 0.32569748, 0, 0.98149693, 0, -0.32569748, 0, -0.9258819, -9.691336, 1.88994, 48.72529)
+
+[node name="valley_reed_patch_a10" parent="District" unique_id=366633832 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.73275656, 0, 0.6293713, 0, 0.9659402, 0, -0.6293713, 0, 0.73275656, 10.022855, 0.24, -9.807072)
+
+[node name="valley_reed_patch_a11" parent="District" unique_id=1649559146 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.67509085, 0, -0.6432407, 0, 0.9324732, 0, 0.6432407, 0, -0.67509085, 1.075518, 0.6813393, 38.92079)
+
+[node name="valley_reed_patch_b8" parent="District" unique_id=182636969 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.526696, 0, 0.7326697, 0, 0.90233785, 0, -0.7326697, 0, 0.526696, 0.5692828, 0.24, 32.68056)
+
+[node name="valley_reed_patch_a12" parent="District" unique_id=814846301 instance=ExtResource("35_41yl4")]
+transform = Transform3D(1.084848, 0, 0.22217426, 0, 1.1073648, 0, -0.22217426, 0, 1.084848, -9.792858, 2.0363402, 49.74739)
+
+[node name="valley_reed_patch_a13" parent="District" unique_id=934539165 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.22387326, 0, -1.181193, 0, 1.2022213, 0, 1.181193, 0, -0.22387326, 10.820189, 0.24, -30.821474)
+
+[node name="valley_reed_patch_b9" parent="District" unique_id=1240595689 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(-0.3650866, 0, 0.8551861, 0, 0.92985564, 0, -0.8551861, 0, -0.3650866, 1.0552144, 0.24, 24.012064)
+
+[node name="valley_reed_patch_a14" parent="District" unique_id=514359492 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.70970947, 0, -0.8742221, 0, 1.1260337, 0, 0.8742221, 0, 0.70970947, -11.0781765, 0.87581134, 40.759403)
+
+[node name="valley_reed_patch_b10" parent="District" unique_id=2025395191 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.04113278, 0, -1.0449932, 0, 1.0458024, 0, 1.0449932, 0, 0.04113278, 1.905911, 1.0862641, 42.58985)
+
+[node name="valley_reed_patch_a15" parent="District" unique_id=1133411287 instance=ExtResource("35_41yl4")]
+transform = Transform3D(1.0545734, 0, -0.16210915, 0, 1.0669605, 0, 0.16210915, 0, 1.0545734, 0.0038532366, 0.24, 27.654312)
+
+[node name="valley_reed_patch_a16" parent="District" unique_id=1233195019 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.551306, 0, -0.9412274, 0, 1.0908012, 0, 0.9412274, 0, 0.551306, -10.93053, 0.97776926, 41.663124)
+
+[node name="valley_reed_patch_b11" parent="District" unique_id=729182941 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(-0.7405619, 0, 0.8716913, 0, 1.1437997, 0, -0.8716913, 0, -0.7405619, -10.523014, 0.24, 31.87125)
+
+[node name="valley_reed_patch_a17" parent="District" unique_id=1126700929 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.82454425, 0, 0.06659894, 0, 0.8272295, 0, -0.06659894, 0, -0.82454425, -4.9160905, 0.24, -4.103515)
+
+[node name="valley_reed_patch_b12" parent="District" unique_id=535608164 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(-0.42952287, 0, -1.1993775, 0, 1.2739688, 0, 1.1993775, 0, -0.42952287, -0.6554566, 0.24, 24.033283)
+
+[node name="valley_reed_patch_a18" parent="District" unique_id=1330462712 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-1.0026037, 0, -0.48691058, 0, 1.1145834, 0, 0.48691058, 0, -1.0026037, -12.776642, 0.24, 32.427673)
+
+[node name="valley_reed_patch_a19" parent="District" unique_id=1644508261 instance=ExtResource("35_41yl4")]
+transform = Transform3D(0.8813451, 0, -0.1550477, 0, 0.89487934, 0, 0.1550477, 0, 0.8813451, 10.957425, 0.24, -17.856586)
+
+[node name="valley_reed_patch_b13" parent="District" unique_id=545927419 instance=ExtResource("36_w1nxs")]
+transform = Transform3D(0.09633706, 0, -0.79486996, 0, 0.80068666, 0, 0.79486996, 0, 0.09633706, -9.390589, 0.24, 9.531577)
+
+[node name="valley_reed_patch_a20" parent="District" unique_id=1142697988 instance=ExtResource("35_41yl4")]
+transform = Transform3D(-0.16820537, 0, 0.8444774, 0, 0.8610663, 0, -0.8444774, 0, -0.16820537, -10.063196, 0.9419358, 41.349438)
+
+[node name="valley_shrub_c" parent="District" unique_id=1339018737 instance=ExtResource("37_q33je")]
+transform = Transform3D(0.5692613, 0, -0.9272952, 0, 1.0880877, 0, 0.9272952, 0, 0.5692613, -50.27879, 9.632418, 47.96775)
+
+[node name="valley_rock_b" parent="District" unique_id=2139666992 instance=ExtResource("38_hu7c7")]
+transform = Transform3D(-0.07669754, 0, 1.2214785, 0, 1.223884, 0, -1.2214785, 0, -0.07669754, 34.746765, 4.246043, -47.007317)
+
+[node name="valley_shrub_c2" parent="District" unique_id=61952505 instance=ExtResource("37_q33je")]
+transform = Transform3D(-0.4476944, 0, 1.01121, 0, 1.1058824, 0, -1.01121, 0, -0.4476944, 24.199125, 0.764915, 12.222597)
+
+[node name="valley_rock_e" parent="District" unique_id=607191443 instance=ExtResource("39_w5np4")]
+transform = Transform3D(0.19576545, 0, -1.2046059, 0, 1.2204096, 0, 1.2046059, 0, 0.19576545, 43.463707, 6.140954, 14.6195135)
+
+[node name="valley_shrub_b" parent="District" unique_id=1474636505 instance=ExtResource("40_7lomb")]
+transform = Transform3D(0.23640613, 0, 0.8760246, 0, 0.90736264, 0, -0.8760246, 0, 0.23640613, -27.477295, 5, -44.124325)
+
+[node name="valley_shrub_c3" parent="District" unique_id=785244440 instance=ExtResource("37_q33je")]
+transform = Transform3D(-0.7298748, 0, -0.4104637, 0, 0.83737546, 0, 0.4104637, 0, -0.7298748, -14.01269, 0.24, -26.48046)
+
+[node name="valley_rock_a" parent="District" unique_id=1264356579 instance=ExtResource("41_m4opl")]
+transform = Transform3D(0.39935547, 0, -1.0998272, 0, 1.1700875, 0, 1.0998272, 0, 0.39935547, -44.01347, 5, -38.23266)
+
+[node name="valley_shrub_b2" parent="District" unique_id=339742252 instance=ExtResource("40_7lomb")]
+transform = Transform3D(0.4709226, 0, -0.83781505, 0, 0.96109426, 0, 0.83781505, 0, 0.4709226, 49.993534, 8.468797, -23.029861)
+
+[node name="valley_shrub_b3" parent="District" unique_id=525892767 instance=ExtResource("40_7lomb")]
+transform = Transform3D(0.083999515, 0, 0.7448587, 0, 0.74958014, 0, -0.7448587, 0, 0.083999515, 46.742107, 6.590228, -34.826813)
+
+[node name="valley_shrub_c4" parent="District" unique_id=1814270876 instance=ExtResource("37_q33je")]
+transform = Transform3D(-0.6505155, 0, 0.6134277, 0, 0.8941275, 0, -0.6134277, 0, -0.6505155, -49.140034, 5, -39.757587)
+
+[node name="valley_rock_b2" parent="District" unique_id=1483438410 instance=ExtResource("38_hu7c7")]
+transform = Transform3D(0.6648898, 0, -0.6062145, 0, 0.8997636, 0, 0.6062145, 0, 0.6648898, 35.924423, 5.1691933, 46.26893)
+
+[node name="valley_rock_e2" parent="District" unique_id=643223868 instance=ExtResource("39_w5np4")]
+transform = Transform3D(-0.15571663, 0, 0.8207995, 0, 0.83543974, 0, -0.8207995, 0, -0.15571663, 29.796831, 2.0015507, 33.52385)
+
+[node name="valley_shrub_b4" parent="District" unique_id=1479537256 instance=ExtResource("40_7lomb")]
+transform = Transform3D(-0.5000797, 0, 0.70843065, 0, 0.86715263, 0, -0.70843065, 0, -0.5000797, -34.65642, 2.2018158, -5.48242)
+
+[node name="valley_rock_a2" parent="District" unique_id=2101699119 instance=ExtResource("41_m4opl")]
+transform = Transform3D(-1.0013852, 0, -0.030154578, 0, 1.001839, 0, 0.030154578, 0, -1.0013852, -50.744385, 5.3529067, -30.209332)
+
+[node name="valley_rock_d" parent="District" unique_id=1385680693 instance=ExtResource("42_p242e")]
+transform = Transform3D(-0.3585519, 0, -0.93724597, 0, 1.0034887, 0, 0.93724597, 0, -0.3585519, 19.840124, 0.24, -5.323071)
+
+[node name="valley_shrub_b5" parent="District" unique_id=391602818 instance=ExtResource("40_7lomb")]
+transform = Transform3D(-0.8477492, 0, -0.6788595, 0, 1.0860611, 0, 0.6788595, 0, -0.8477492, 43.77696, 5.3813224, 24.400394)
+
+[node name="valley_shrub_c5" parent="District" unique_id=1830835780 instance=ExtResource("37_q33je")]
+transform = Transform3D(0.5228523, 0, 0.83102846, 0, 0.9818263, 0, -0.83102846, 0, 0.5228523, 33.55494, 3.121982, 10.322897)
+
+[node name="valley_shrub_b6" parent="District" unique_id=1138049208 instance=ExtResource("40_7lomb")]
+transform = Transform3D(0.6085852, 0, 0.95703363, 0, 1.1341469, 0, -0.95703363, 0, 0.6085852, -52.422615, 9.308202, 1.4559134)
+
+[node name="valley_rock_c" parent="District" unique_id=584537433 instance=ExtResource("43_fb2yv")]
+transform = Transform3D(0.864551, 0, 0.38898176, 0, 0.9480271, 0, -0.38898176, 0, 0.864551, 15.96588, 0.24, 18.803242)
+
+[node name="valley_shrub_b7" parent="District" unique_id=1698306172 instance=ExtResource("40_7lomb")]
+transform = Transform3D(-0.7207494, 0, -0.5635631, 0, 0.9149224, 0, 0.5635631, 0, -0.7207494, 21.928745, 0.41938442, 33.633774)
+
+[node name="valley_shrub_c6" parent="District" unique_id=1012800116 instance=ExtResource("37_q33je")]
+transform = Transform3D(0.84568936, 0, -0.5371146, 0, 1.0018396, 0, 0.5371146, 0, 0.84568936, -51.51928, 7.3955784, -15.698235)
+
+[node name="valley_shrub_b8" parent="District" unique_id=1914286178 instance=ExtResource("40_7lomb")]
+transform = Transform3D(0.20895565, 0, 1.141034, 0, 1.1600091, 0, -1.141034, 0, 0.20895565, 32.199856, 2.9238064, 36.89204)
+
+[node name="valley_flower_patch_a" parent="District" unique_id=1564172918 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, -20, 0.24, 25)
+
+[node name="valley_flower_patch_b" parent="District" unique_id=1126028209 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -19, 0.24, 24.5)
+
+[node name="valley_flower_patch_a2" parent="District" unique_id=726533927 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, -20, 0.24, 4)
+
+[node name="valley_flower_patch_b2" parent="District" unique_id=2072015617 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -19, 0.24, 3.5)
+
+[node name="valley_flower_patch_a3" parent="District" unique_id=276885591 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, -32, 0.24, 31)
+
+[node name="valley_flower_patch_b3" parent="District" unique_id=756669873 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -31, 0.24, 30.5)
+
+[node name="valley_flower_patch_a4" parent="District" unique_id=1433279790 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, 22, 0.24, -9)
+
+[node name="valley_flower_patch_b4" parent="District" unique_id=843245216 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 23, 0.24, -9.5)
+
+[node name="valley_flower_patch_a5" parent="District" unique_id=289239713 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, 19, 0.24, -28)
+
+[node name="valley_flower_patch_b5" parent="District" unique_id=2126953069 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 20, 0.24, -28.5)
+
+[node name="valley_flower_patch_a6" parent="District" unique_id=2001376869 instance=ExtResource("44_vh2c2")]
+transform = Transform3D(1.6, 0, 0, 0, 1.6, 0, 0, 0, 1.6, -13, 0.24, -31)
+
+[node name="valley_flower_patch_b6" parent="District" unique_id=775559507 instance=ExtResource("45_chc5h")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, -12, 0.24, -31.5)
+
+[node name="valley_grass_patch_a" parent="District" unique_id=1230140836 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.83822984, 0, 0.54531705, 0, 1, 0, -0.54531705, 0, 0.83822984, -18.343153, 0.63543236, 38.458157)
+
+[node name="valley_grass_patch_a2" parent="District" unique_id=1399994971 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.42483148, 0, 0.9052724, 0, 1, 0, -0.9052724, 0, 0.42483148, 7.35818, 0.24, 31.59378)
+
+[node name="valley_grass_patch_a3" parent="District" unique_id=1805003636 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.018075924, 0, -0.9998366, 0, 1, 0, 0.9998366, 0, 0.018075924, -14.648706, 0.24, 2.3439915)
+
+[node name="valley_grass_patch_b" parent="District" unique_id=2020373312 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.6071804, 0, 0.794564, 0, 1, 0, -0.794564, 0, 0.6071804, 18.410744, 0.24207547, -34.400578)
+
+[node name="valley_grass_patch_a4" parent="District" unique_id=1443681766 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.6084838, 0, 0.79356635, 0, 1, 0, -0.79356635, 0, 0.6084838, -8.063082, 0.24, -26.765528)
+
+[node name="valley_grass_patch_b2" parent="District" unique_id=663778162 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(-0.9857537, 0, 0.1681951, 0, 1, 0, -0.1681951, 0, -0.9857537, -7.2345185, 0.24, -29.361801)
+
+[node name="valley_grass_patch_a5" parent="District" unique_id=1487878264 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.8530373, 0, -0.52185, 0, 1, 0, 0.52185, 0, 0.8530373, -9.415958, 0.24, -12.276347)
+
+[node name="valley_grass_patch_b3" parent="District" unique_id=264132037 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(-0.9012273, 0, 0.43334672, 0, 1, 0, -0.43334672, 0, -0.9012273, 18.152534, 0.24, -19.400309)
+
+[node name="valley_grass_patch_a6" parent="District" unique_id=1907590649 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.97254086, 0, -0.23273213, 0, 1, 0, 0.23273213, 0, -0.97254086, -9.954762, 0.24, -11.695812)
+
+[node name="valley_grass_patch_a7" parent="District" unique_id=283550672 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.87251097, 0, 0.4885945, 0, 1, 0, -0.4885945, 0, -0.87251097, -10.218269, 0.24, -12.590936)
+
+[node name="valley_grass_patch_b4" parent="District" unique_id=1106881212 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.49408627, 0, 0.8694129, 0, 1, 0, -0.8694129, 0, 0.49408627, -14.683313, 0.24, 6.071765)
+
+[node name="valley_grass_patch_a8" parent="District" unique_id=916376338 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.89341676, 0, -0.4492288, 0, 1, 0, 0.4492288, 0, -0.89341676, 7.6017594, 0.24, 27.853064)
+
+[node name="valley_grass_patch_b5" parent="District" unique_id=2124447931 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.99872243, 0, -0.050532095, 0, 1, 0, 0.050532095, 0, 0.99872243, -11.431989, 0.24, -6.247882)
+
+[node name="valley_grass_patch_b6" parent="District" unique_id=1931453132 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.8371482, 0, 0.54697615, 0, 1, 0, -0.54697615, 0, 0.8371482, -18.618073, 0.24887058, 34.113586)
+
+[node name="valley_grass_patch_a9" parent="District" unique_id=385503649 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.71367306, 0, 0.7004789, 0, 1, 0, -0.7004789, 0, -0.71367306, -19.607044, 0.24, 31.715601)
+
+[node name="valley_grass_patch_b7" parent="District" unique_id=21083081 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(-0.8006262, 0, 0.5991641, 0, 1, 0, -0.5991641, 0, -0.8006262, -19.19082, 0.2849269, 35.302116)
+
+[node name="valley_grass_patch_a10" parent="District" unique_id=1265117007 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.68623066, 0, -0.727384, 0, 1, 0, 0.727384, 0, 0.68623066, 13.922276, 0.24, -2.799548)
+
+[node name="valley_grass_patch_b8" parent="District" unique_id=1664715754 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.8246278, 0, -0.5656757, 0, 1, 0, 0.5656757, 0, 0.8246278, -7.587122, 0.24, -32.41025)
+
+[node name="valley_grass_patch_a11" parent="District" unique_id=1873543477 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.9982458, 0, -0.059206475, 0, 1, 0, 0.059206475, 0, 0.9982458, 8.100523, 0.4856232, 36.835827)
+
+[node name="valley_grass_patch_b9" parent="District" unique_id=695397274 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.61770695, 0, -0.78640836, 0, 1, 0, 0.78640836, 0, 0.61770695, 18.895382, 0.24, -25.557575)
+
+[node name="valley_grass_patch_a12" parent="District" unique_id=557508777 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.66493297, 0, 0.74690306, 0, 1, 0, -0.74690306, 0, -0.66493297, 15.297915, 0.24, -9.609239)
+
+[node name="valley_grass_patch_b10" parent="District" unique_id=1348393396 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(-0.76852214, 0, 0.63982314, 0, 1, 0, -0.63982314, 0, -0.76852214, -18.089155, 0.24, 24.745604)
+
+[node name="valley_grass_patch_a13" parent="District" unique_id=867170606 instance=ExtResource("46_2klud")]
+transform = Transform3D(-0.5130599, 0, -0.8583528, 0, 1, 0, 0.8583528, 0, -0.5130599, -19.03504, 0.24, 25.79723)
+
+[node name="valley_grass_patch_b11" parent="District" unique_id=1267835591 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(0.42606983, 0, -0.90469027, 0, 1, 0, 0.90469027, 0, 0.42606983, 12.167492, 0.24, 1.8760302)
+
+[node name="valley_grass_patch_a14" parent="District" unique_id=2009756429 instance=ExtResource("46_2klud")]
+transform = Transform3D(0.6631847, 0, 0.74845576, 0, 1, 0, -0.74845576, 0, 0.6631847, -9.890804, 0.24, -9.961459)
+
+[node name="valley_grass_patch_b12" parent="District" unique_id=1433138392 instance=ExtResource("47_vi6t0")]
+transform = Transform3D(-0.2551902, 0, 0.9668909, 0, 1, 0, -0.9668909, 0, -0.2551902, 9.497095, 0.24, 10.966639)
+
+[node name="ValleyAtmosphere" type="WorldEnvironment" parent="." unique_id=943431487]
+environment = SubResource("Environment_rju2b")
+
+[node name="AfternoonSun" type="DirectionalLight3D" parent="." unique_id=1689997466]
+transform = Transform3D(0.81915206, 0.4262504, -0.38379753, 0, 0.66913056, 0.74314487, 0.57357645, -0.6087487, 0.54811966, 0, 0, 0)
+light_color = Color(1, 0.9411765, 0.8392157, 1)
+light_energy = 1.65
+shadow_enabled = true
+directional_shadow_max_distance = 200.0
+
+[node name="ReviewCamera" type="Camera3D" parent="." unique_id=441227025]
+transform = Transform3D(0.81915206, -0.4055798, 0.4055798, 0, 0.70710677, 0.70710677, -0.57357645, -0.579228, 0.579228, 53, 92, 72)
+projection = 1
+current = true
+size = 87.0
+far = 500.0

@@ -1,0 +1,73 @@
+[gd_scene format=4]
+
+[ext_resource type="Script" path="res://3D_assets/starter_valley/scenes/asset_motion.gd" id="1_msds3"]
+[ext_resource type="PackedScene" path="res://3D_assets/starter_valley/models/valley_path_bend.glb" id="2_sqg4s"]
+[ext_resource type="Texture2D" path="res://3D_assets/starter_valley/models/valley_path_bend_valley_earth.png" id="3_o24e8"]
+[ext_resource type="Texture2D" path="res://3D_assets/starter_valley/textures/valley_earth.png" id="4_l5ol5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w7gg3"]
+resource_name = "Valley_earth"
+cull_mode = 2
+albedo_texture = ExtResource("3_o24e8")
+roughness = 0.88
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_y7ncx"]
+_surfaces = [{
+"aabb": AABB(-0.08502383, 0, -3.2972164, 3.3822403, 1e-05, 3.3822403),
+"format": 34896613377,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAIABAACAAUABgAEAAUABgAFAAcACAAGAAcACAAHAAkACgAIAAkACgAJAAsADAAKAAsADAALAA0ADgAMAA0ADgANAA8AEAAOAA8AEAAPABEAEgAQABEAEgARABMAFAASABMAFAATABUAFgAUABUAFgAVABcAGAAWABcAGAAXABkA"),
+"name": "Valley_earth",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 26,
+"vertex_data": PackedByteArray("Ef4AAPXYAACgOwAA//8AAPY6AACl8gAA//8AACDzAACy9wAA6rgAAJw5AADZ6wAAMe0AAPqZAABiNwAASeUAAL7eAACsfAAAUTQAABHfAACXzAAAgmEAAHcwAABO2QAADLcAAPJIAADmKwAAGNQAAHyeAABnMwAAsCYAAIfPAABSgwAAQCEAAO0gAACtywAABGYAAM0SAAC1GgAAnMgAABRHAABMCAAAJRQAAGLGAAAJJwAA7QEAAFkNAAAIxQAA3gwAAAAAAAAAAAAAXsQAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pvj07"]
+resource_name = "__VALLEY_EXPORT_TEMP_valley_path_bend__Dirt_Path_mesh_004"
+_surfaces = [{
+"aabb": AABB(-0.08502383, 0, -3.2972164, 3.3822403, 1e-05, 3.3822403),
+"attribute_data": PackedByteArray("Av+Y6keb///wmq34///w+L37CNk/mvP0WvYSyBqZWvHw7gK4iJfy7aHlHqmOlcnqldqnmzaT7uf7zdiPipBt5Q3A5IWVjVDjBbH5fWWKouEnoTd4B4dq4LiQuHSLg6zfTIOqc7J8T98="),
+"format": 34896613399,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAAAAIABAACAAUABgAEAAUABgAFAAcACAAGAAcACAAHAAkACgAIAAkACgAJAAsADAAKAAsADAALAA0ADgAMAA0ADgANAA8AEAAOAA8AEAAPABEAEgAQABEAEgARABMAFAASABMAFAATABUAFgAUABUAFgAVABcAGAAWABcAGAAXABkA"),
+"material": SubResource("StandardMaterial3D_w7gg3"),
+"name": "Valley_earth",
+"primitive": 3,
+"uv_scale": Vector4(2.1981442, 2.0566826, 0, 0),
+"vertex_count": 26,
+"vertex_data": PackedByteArray("Ef4AAPXY/7+gOwAA////v/Y6AACl8v+///8AACDz/7+y9wAA6rj/v5w5AADZ6/+/Me0AAPqZ/79iNwAASeX/v77eAACsfP+/UTQAABHf/7+XzAAAgmH/v3cwAABO2f+/DLcAAPJI/7/mKwAAGNT/v3yeAABnM/+/sCYAAIfP/79SgwAAQCH/v+0gAACty/+/BGYAAM0S/7+1GgAAnMj/vxRHAABMCP+/JRQAAGLG/78JJwAA7QH/v1kNAAAIxf+/3gwAAAAA/78AAAAAXsT/v////3////9/////f////3////9/////f////3/+//9/////f/7//3////9//v//f////3/+//9/////f/7//3////9/////f////3/+//9//v//f////3/+//9//v//f/7//3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_y7ncx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nf317"]
+resource_name = "Valley_earth"
+cull_mode = 2
+albedo_texture = ExtResource("4_l5ol5")
+roughness = 0.88
+texture_filter = 5
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_nsd37"]
+data = PackedVector3Array(3.2717, 0, -0.4308, 0.70269996, 0, 0.085, 0.694, 0, -0.0914, 3.2717, 0, -0.4308, 3.2972, 0, -0.085, 0.70269996, 0, 0.085, 3.1875, 0, -0.8541, 3.2717, 0, -0.4308, 0.694, 0, -0.0914, 3.1875, 0, -0.8541, 0.694, 0, -0.0914, 0.67609996, 0, -0.1812, 3.0488, 0, -1.2629, 3.1875, 0, -0.8541, 0.67609996, 0, -0.1812, 3.0488, 0, -1.2629, 0.67609996, 0, -0.1812, 0.64669997, 0, -0.2679, 2.8579, 0, -1.65, 3.0488, 0, -1.2629, 0.64669997, 0, -0.2679, 2.8579, 0, -1.65, 0.64669997, 0, -0.2679, 0.6062, 0, -0.35, 2.618, 0, -2.0089, 2.8579, 0, -1.65, 0.6062, 0, -0.35, 2.618, 0, -2.0089, 0.6062, 0, -0.35, 0.5553, 0, -0.4262, 2.3334, 0, -2.3335, 2.618, 0, -2.0089, 0.5553, 0, -0.4262, 2.3334, 0, -2.3335, 0.5553, 0, -0.4262, 0.49499997, 0, -0.49499997, 2.0089, 0, -2.6181, 2.3334, 0, -2.3335, 0.49499997, 0, -0.49499997, 2.0089, 0, -2.6181, 0.49499997, 0, -0.49499997, 0.4261, 0, -0.5553, 1.65, 0, -2.8579, 2.0089, 0, -2.6181, 0.4261, 0, -0.5553, 1.65, 0, -2.8579, 0.4261, 0, -0.5553, 0.35, 0, -0.6062, 1.2628, 0, -3.0488, 1.65, 0, -2.8579, 0.35, 0, -0.6062, 1.2628, 0, -3.0488, 0.35, 0, -0.6062, 0.2678, 0, -0.64669997, 0.8541, 0, -3.1876, 1.2628, 0, -3.0488, 0.2678, 0, -0.64669997, 0.8541, 0, -3.1876, 0.2678, 0, -0.64669997, 0.1811, 0, -0.6762, 0.43069997, 0, -3.2717998, 0.8541, 0, -3.1876, 0.1811, 0, -0.6762, 0.43069997, 0, -3.2717998, 0.1811, 0, -0.6762, 0.091299996, 0, -0.694, 0.085, 0, -3.2972, 0.43069997, 0, -3.2717998, 0.091299996, 0, -0.694, 0.085, 0, -3.2972, 0.091299996, 0, -0.694, -0.085, 0, -0.7028)
+
+[node name="valley_path_bend" type="Node3D" unique_id=294127010]
+script = ExtResource("1_msds3")
+metadata/source_blend = "3D_assets/starter_valley/blender/assets/valley_path_bend.blend"
+
+[node name="__VALLEY_EXPORT_TEMP" type="Node3D" parent="." unique_id=1136129855 instance=ExtResource("2_sqg4s")]
+
+[node name="valley_path_bend_002" type="Node3D" parent="__VALLEY_EXPORT_TEMP" unique_id=1364688521]
+
+[node name="valley_path_bend__Valley_earth" type="MeshInstance3D" parent="__VALLEY_EXPORT_TEMP/valley_path_bend_002" unique_id=1780229271]
+mesh = SubResource("ArrayMesh_pvj07")
+surface_material_override/0 = SubResource("StandardMaterial3D_nf317")
+
+[node name="StaticCollision" type="StaticBody3D" parent="." unique_id=1195984586]
+
+[node name="@CollisionShape3D@33" type="CollisionShape3D" parent="StaticCollision" unique_id=1975355752]
+shape = SubResource("ConcavePolygonShape3D_nsd37")

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "reedbridge",
+    "display_name": "Reedbridge\u2013Millbrook",
+    "kind": "adventure",
+    "position": [
+      -26.8,
+      0.5950393676757812,
+      24.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -31.8,
+      0.7150393676757812,
+      24.0
+    ],
+    "model": "valley_cottage_a",
+    "target_scene": "res://3D_assets/green_river_overworld/scenes/local_valley.tscn",
+    "spawn_id": "south_road"
+  },
+  {
+    "id": "applemead",
+    "display_name": "Applemead",
+    "kind": "town",
+    "position": [
+      -82.4592201188381,
+      2.6713714599609375,
+      36.108655439013546
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -80.54580295701265,
+      2.7913714599609376,
+      31.48925777645711
+    ],
+    "model": "valley_cottage_b",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "stoneford",
+    "display_name": "Stoneford",
+    "kind": "town",
+    "position": [
+      -94.0,
+      3.7790298461914062,
+      -67.2
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -94.0,
+      3.8990374755859376,
+      -62.2
+    ],
+    "model": "valley_cottage_c",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "harthill",
+    "display_name": "Harthill",
+    "kind": "town",
+    "position": [
+      -18.891344560986457,
+      4.719764709472656,
+      -100.4592201188381
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -23.51074222354289,
+      4.839764709472656,
+      -98.54580295701265
+    ],
+    "model": "valley_cottage_a",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "eastwatch",
+    "display_name": "Eastwatch",
+    "kind": "town",
+    "position": [
+      103.0,
+      4.440849304199219,
+      -32.2
+    ],
+    "radius": 3.2,
+    "return_position": [
+      103.0,
+      4.560849304199219,
+      -27.2
+    ],
+    "model": "valley_cottage_c",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "willowbank",
+    "display_name": "Willowbank",
+    "kind": "town",
+    "position": [
+      35.891344560986454,
+      0.2822723388671875,
+      94.4592201188381
+    ],
+    "radius": 3.2,
+    "return_position": [
+      40.51074222354289,
+      0.40227996826171875,
+      92.54580295701265
+    ],
+    "model": "valley_cottage_b",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "aqueduct",
+    "display_name": "Royal Aqueduct",
+    "kind": "dungeon",
+    "position": [
+      41.108655439013546,
+      1.6091537475585938,
+      -73.5407798811619
+    ],
+    "radius": 3.2,
+    "return_position": [
+      36.48925777645711,
+      1.7291537475585939,
+      -75.45419704298735
+    ],
+    "model": "overworld_aqueduct",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "fortress",
+    "display_name": "Toll Fortress",
+    "kind": "dungeon",
+    "position": [
+      35.108655439013546,
+      4.586578369140625,
+      -99.4592201188381
+    ],
+    "radius": 3.2,
+    "return_position": [
+      30.48925777645711,
+      4.706563110351563,
+      -97.54580295701265
+    ],
+    "model": "valley_hill_fortress",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "estate",
+    "display_name": "Orchard Estate",
+    "kind": "dungeon",
+    "position": [
+      -110.0,
+      5.445625305175781,
+      5.8
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -110.0,
+      5.565625305175781,
+      10.8
+    ],
+    "model": "valley_inn",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "mill_cellar",
+    "display_name": "Mill Cellar",
+    "kind": "dungeon",
+    "position": [
+      26.8,
+      0.5820083618164062,
+      -30.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      31.8,
+      0.7020083618164062,
+      -30.0
+    ],
+    "model": "valley_watermill",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "quarry",
+    "display_name": "Quarry Galleries",
+    "kind": "dungeon",
+    "position": [
+      -119.84852813742386,
+      9.030891418457031,
+      -83.15147186257614
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -116.31299423149112,
+      9.1508837890625,
+      -86.68700576850888
+    ],
+    "model": "overworld_quarry",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "burial",
+    "display_name": "Roadside Burial Chambers",
+    "kind": "dungeon",
+    "position": [
+      110.4592201188381,
+      5.471351623535156,
+      -0.8913445609864559
+    ],
+    "radius": 3.2,
+    "return_position": [
+      108.54580295701265,
+      5.591351623535156,
+      -5.51074222354289
+    ],
+    "model": "overworld_crypt",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "undercroft",
+    "display_name": "Bridge Undercroft",
+    "kind": "dungeon",
+    "position": [
+      -18.849054908171283,
+      0.4918670654296875,
+      49
+    ],
+    "radius": 2.2,
+    "return_position": [
+      -18.849054908171283,
+      0.5504046630859375,
+      52.8
+    ],
+    "model": "",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "root_cave",
+    "display_name": "Root-Hollow Cave",
+    "kind": "dungeon",
+    "position": [
+      -110.8,
+      11.992698669433594,
+      -112.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -115.8,
+      12.112698669433593,
+      -112.0
+    ],
+    "model": "overworld_cave",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "watchtower",
+    "display_name": "Ruined Watchtower",
+    "kind": "dungeon",
+    "position": [
+      84.2,
+      2.2142562866210938,
+      99.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      79.2,
+      2.334256286621094,
+      99.0
+    ],
+    "model": "overworld_watchtower",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "forest_exit",
+    "display_name": "Elderwood Forest",
+    "kind": "region_exit",
+    "position": [
+      -144.2,
+      18.331573486328125,
+      -122.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -139.2,
+      18.451573486328126,
+      -122.0
+    ],
+    "model": "valley_signpost",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "coast_exit",
+    "display_name": "Sapphire Coast",
+    "kind": "region_exit",
+    "position": [
+      -152.2,
+      11.727218627929688,
+      8.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -147.2,
+      11.847218627929687,
+      7.999999999999999
+    ],
+    "model": "valley_signpost",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "highlands_exit",
+    "display_name": "Greyspine Highlands",
+    "kind": "region_exit",
+    "position": [
+      -18.0,
+      9.283821105957031,
+      -134.2
+    ],
+    "radius": 3.2,
+    "return_position": [
+      -18.0,
+      9.86774932861328,
+      -129.2
+    ],
+    "model": "valley_signpost",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "capital_exit",
+    "display_name": "Old Capital",
+    "kind": "region_exit",
+    "position": [
+      154.2,
+      11.856246948242188,
+      -43.0
+    ],
+    "radius": 3.2,
+    "return_position": [
+      149.2,
+      11.976246948242187,
+      -43.0
+    ],
+    "model": "valley_signpost",
+    "target_scene": "",
+    "spawn_id": ""
+  },
+  {
+    "id": "marsh_exit",
+    "display_name": "Reedwater Marsh",
+    "kind": "region_exit",
+    "position": [
+      43.0,
+      0.6460952758789062,
+      134.2
+    ],
+    "radius": 3.2,
+    "return_position": [
+      43.0,
+      0.7660952758789062,
+      129.2
+    ],
+    "model": "valley_signpost",
+    "target_scene": "",
+    "spawn_id": ""
+  }
+]

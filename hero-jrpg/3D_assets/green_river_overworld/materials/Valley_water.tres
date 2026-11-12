@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://3D_assets/starter_valley/materials/river.gdshader" id="1_gekry"]
+[ext_resource type="Texture2D" path="res://3D_assets/green_river_overworld/textures/valley_water.png" id="2_xku0j"]
+
+[resource]
+resource_name = "Valley_water"
+render_priority = 0
+shader = ExtResource("1_gekry")
+shader_parameter/painted_water = ExtResource("2_xku0j")
+shader_parameter/flow_speed = null

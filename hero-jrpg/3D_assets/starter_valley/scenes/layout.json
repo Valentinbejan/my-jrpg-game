@@ -1,0 +1,2402 @@
+[
+  {
+    "asset": "valley_terrain",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_district_paths",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_river",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_stone_bridge",
+    "position": [
+      -4.543296075839404,
+      -18,
+      -1.6
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_timber_bridge",
+    "position": [
+      5.488540508587004,
+      38,
+      0.03
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_inn",
+    "position": [
+      -25,
+      -14,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_shop",
+    "position": [
+      -29,
+      -1,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_a",
+    "position": [
+      -25,
+      -28,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_b",
+    "position": [
+      -39,
+      -23,
+      0.24
+    ],
+    "rotation": 0.25,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_c",
+    "position": [
+      -37,
+      -9,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_watermill",
+    "position": [
+      -1.4,
+      24,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_a",
+    "position": [
+      24,
+      13,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_b",
+    "position": [
+      28,
+      28,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_cottage_c",
+    "position": [
+      36,
+      18,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_hill_fortress",
+    "position": [
+      -37,
+      43,
+      5.0
+    ],
+    "rotation": -0.2,
+    "scale": 1
+  },
+  {
+    "asset": "valley_sluice",
+    "position": [
+      3.25,
+      29.5,
+      -0.7
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_landing",
+    "position": [
+      -0.7975268976407293,
+      -32,
+      -0.3
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_water_cascade",
+    "position": [
+      4.2,
+      28.3,
+      0.45
+    ],
+    "rotation": 3.141592653589793,
+    "scale": 1
+  },
+  {
+    "asset": "valley_well",
+    "position": [
+      -20,
+      -6,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_well",
+    "position": [
+      24,
+      19.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_bench",
+    "position": [
+      -20.5,
+      -21,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_bench",
+    "position": [
+      -30,
+      -6,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_bench",
+    "position": [
+      18,
+      16,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_bench",
+    "position": [
+      18.5,
+      41,
+      0.9025695512584818
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_signpost",
+    "position": [
+      -21,
+      -22.8,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_signpost",
+    "position": [
+      15,
+      41,
+      0.9025695512584818
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_signpost",
+    "position": [
+      -12,
+      4,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_signpost",
+    "position": [
+      22,
+      25.3,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_handcart",
+    "position": [
+      -30,
+      -27,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_handcart",
+    "position": [
+      -30,
+      5,
+      0.9195492031972927
+    ],
+    "rotation": 1.1,
+    "scale": 1
+  },
+  {
+    "asset": "valley_handcart",
+    "position": [
+      35,
+      31,
+      1.3264677034776606
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      -23.25,
+      -19.25,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      -24.35,
+      -19.25,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      -19.0,
+      -16.72,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      -29.5,
+      -14.0,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      -27.55,
+      -5.4,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      -28.65,
+      -5.4,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      -25.3,
+      -3.1760000000000006,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      -32.9,
+      -0.9999999999999998,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      -23.75,
+      -24.0,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      -24.85,
+      -24.0,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      -21.7,
+      -29.92,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      -28.5,
+      -28.0,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      -42.662250809180115,
+      -25.431649442386703,
+      0.24
+    ],
+    "rotation": 0.25,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      -42.93439516436009,
+      -24.365845778504994,
+      0.24
+    ],
+    "rotation": 0.25,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      -40.037932792926924,
+      -27.083742342186504,
+      0.24
+    ],
+    "rotation": 0.25,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      -39.96487544109264,
+      -19.221241555328486,
+      0.24
+    ],
+    "rotation": 0.25,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      -35.7,
+      -12.85,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      -36.8,
+      -12.85,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      -31.8,
+      -10.824,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      -40.6,
+      -9.0,
+      0.24
+    ],
+    "rotation": 1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      22.75,
+      9.0,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      23.85,
+      9.0,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      20.7,
+      14.92,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      27.5,
+      13.0,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      26.55,
+      32.15,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      27.65,
+      32.15,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      24.3,
+      30.016,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      31.9,
+      28.0,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_barrel",
+    "position": [
+      34.7,
+      21.85,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_crate_b",
+    "position": [
+      35.8,
+      21.85,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_flower_box",
+    "position": [
+      30.8,
+      19.824,
+      0.24
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_firewood",
+    "position": [
+      39.6,
+      18.0,
+      2.6744986133500914
+    ],
+    "rotation": -1.5707963267948966,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -42,
+      -32,
+      2.9647610795107138
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -39,
+      -32,
+      0.9885974730816441
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -36,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -33,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -27,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -24,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      -21,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      21,
+      35,
+      0.24474633062445333
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      24,
+      35,
+      0.2446678325659126
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      27,
+      35,
+      0.3880725554069679
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      30,
+      35,
+      0.9177200618227325
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_straight",
+    "position": [
+      33,
+      35,
+      2.0424997685839594
+    ],
+    "rotation": 0,
+    "scale": 1
+  },
+  {
+    "asset": "valley_fence_gate",
+    "position": [
+      -30,
+      -32,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.25
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -46,
+      -12,
+      0.7846298971908153
+    ],
+    "rotation": 1.571271734366767,
+    "scale": 1.0907292965719066
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -43,
+      6,
+      5.125683457721653
+    ],
+    "rotation": 3.1065441592579144,
+    "scale": 0.8129455287720574
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -22,
+      10,
+      0.40569288155150407
+    ],
+    "rotation": 4.969918872374224,
+    "scale": 0.8813311836679683
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -34,
+      23,
+      4.524176723132029
+    ],
+    "rotation": 0.2422320288617332,
+    "scale": 0.8610046066261904
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      12,
+      -35,
+      0.34196485018554096
+    ],
+    "rotation": 5.255535758970544,
+    "scale": 0.866255019650473
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      17,
+      -29,
+      0.24
+    ],
+    "rotation": 5.371723856955271,
+    "scale": 0.8364960537398878
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      29,
+      -5,
+      1.9562594661173216
+    ],
+    "rotation": 2.1860621595759633,
+    "scale": 0.9030301650658883
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      41,
+      2,
+      4.673912587351099
+    ],
+    "rotation": 2.3013465356227494,
+    "scale": 0.9638416969605066
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      40,
+      35,
+      4.860676365468313
+    ],
+    "rotation": 1.9164469095306311,
+    "scale": 0.8328079808494372
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -19,
+      34,
+      3.746479039476116
+    ],
+    "rotation": 3.4000257045202833,
+    "scale": 0.8414590096989059
+  },
+  {
+    "asset": "valley_tree_orchard_a",
+    "position": [
+      -39,
+      -39,
+      4.937436005239106
+    ],
+    "rotation": 1.292586627852879,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_b",
+    "position": [
+      -34,
+      -39,
+      3.406525063420224
+    ],
+    "rotation": 1.9906015415133145,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_a",
+    "position": [
+      -29,
+      -39,
+      1.7815918575417657
+    ],
+    "rotation": 1.9275559427880362,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_b",
+    "position": [
+      -24,
+      -39,
+      0.9988382521500191
+    ],
+    "rotation": 5.7653438548364635,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_a",
+    "position": [
+      -39,
+      -34,
+      2.296352479817428
+    ],
+    "rotation": 1.5851481556395006,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_b",
+    "position": [
+      -34,
+      -34,
+      0.3977533890727033
+    ],
+    "rotation": 3.0143432072380074,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_a",
+    "position": [
+      -29,
+      -34,
+      0.24
+    ],
+    "rotation": 1.9487173439378689,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_orchard_b",
+    "position": [
+      -24,
+      -34,
+      0.24
+    ],
+    "rotation": 1.4284523163968237,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_willow_b",
+    "position": [
+      1.3260749244110457,
+      -40,
+      0.7932766542394696
+    ],
+    "rotation": 0.28306247369716864,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_willow_a",
+    "position": [
+      5.165057036323766,
+      -5,
+      0.24
+    ],
+    "rotation": 0.899841229108972,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_willow_b",
+    "position": [
+      8.858626385390172,
+      8,
+      0.24
+    ],
+    "rotation": 0.912845135013663,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_willow_a",
+    "position": [
+      11.454012986631287,
+      43,
+      1.135488455427336
+    ],
+    "rotation": 0.770897584089504,
+    "scale": 0.85
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      44.13827071591115,
+      -3.823333517770905,
+      6.008516783456431
+    ],
+    "rotation": 1.1976476762824186,
+    "scale": 1.231333901102761
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -50.1510329981876,
+      -9.886844148442968,
+      8.094606362158409
+    ],
+    "rotation": 2.1898701968482066,
+    "scale": 0.9803474840569409
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      44.10605684080572,
+      -32.46709203439787,
+      5.286841113362476
+    ],
+    "rotation": 1.8622019107795995,
+    "scale": 1.1395598075708264
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -45.47321512113902,
+      -37.17975045037055,
+      6.866342660047342
+    ],
+    "rotation": 4.508001634526036,
+    "scale": 1.2566712901112937
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      59.796516589106545,
+      -34.99030856801606,
+      10.194661224327438
+    ],
+    "rotation": 0.22442559607745785,
+    "scale": 0.9713238615842632
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -58.89100417452498,
+      18.970266236746212,
+      9.716054180080086
+    ],
+    "rotation": 5.979668232946916,
+    "scale": 1.2388134427486688
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      50.19690552018304,
+      12.736007612088308,
+      7.687568214436921
+    ],
+    "rotation": 1.9743631456206943,
+    "scale": 0.8856107482903478
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -44.713132929968516,
+      -35.07011940638497,
+      6.2056288566976
+    ],
+    "rotation": 2.1811126247684363,
+    "scale": 0.8231439231986178
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      57.59397240192747,
+      41.665954906101874,
+      10.257237713427083
+    ],
+    "rotation": 4.670192938084998,
+    "scale": 1.208968021066624
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -54.13013495265361,
+      -36.18948426518799,
+      10.038402841571667
+    ],
+    "rotation": 2.0012209297209744,
+    "scale": 1.096736192524816
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      44.82140102407436,
+      -32.857778025723164,
+      5.490276401788137
+    ],
+    "rotation": 5.874679121203071,
+    "scale": 1.116695020202192
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -51.741080996231375,
+      -42.79275251753235,
+      9.893064307187752
+    ],
+    "rotation": 1.329283119317065,
+    "scale": 0.8434951505892532
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      51.74709345319315,
+      -29.554646578293273,
+      7.644381193645627
+    ],
+    "rotation": 2.7100156379821057,
+    "scale": 1.24917339868968
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -50.153834505053496,
+      -13.515264575361662,
+      6.663316598188657
+    ],
+    "rotation": 6.083984800192661,
+    "scale": 1.1189983802376888
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      53.31716763746854,
+      -48.99826831649343,
+      11.177535776564191
+    ],
+    "rotation": 1.2277787151208406,
+    "scale": 1.2023925486869609
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -47.36681047967559,
+      -24.38315535143807,
+      3.8214534984495128
+    ],
+    "rotation": 1.4130484165573898,
+    "scale": 1.231580264414435
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      48.30307780746854,
+      27.132561121003192,
+      7.741628142772279
+    ],
+    "rotation": 0.6882462096266709,
+    "scale": 1.2119080346838342
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      45.02538976643332,
+      5.9073303075932415,
+      5.494090324321593
+    ],
+    "rotation": 1.3560538611379653,
+    "scale": 1.16375016273128
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -53.55766919343098,
+      32.581850810057915,
+      5.919580201241019
+    ],
+    "rotation": 0.45168739814035697,
+    "scale": 0.7999287756148963
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      48.538527127358165,
+      2.661712773871919,
+      6.5509911942342995
+    ],
+    "rotation": 4.096838604047138,
+    "scale": 1.0391308551859424
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -52.31392981054936,
+      35.37668447201861,
+      5.0
+    ],
+    "rotation": 5.926241927579109,
+    "scale": 0.7767237661609719
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      57.25985953544881,
+      17.64027151648054,
+      11.08752408843778
+    ],
+    "rotation": 4.44356852884853,
+    "scale": 0.9601489823440731
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -50.64183461864121,
+      -13.842702227407678,
+      7.423139400071398
+    ],
+    "rotation": 0.2712843996737839,
+    "scale": 0.822802412276039
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      57.205993409594214,
+      -40.255108363364556,
+      9.97310116823092
+    ],
+    "rotation": 3.76924105926451,
+    "scale": 1.0238996805470544
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      47.859996169822715,
+      -47.38012684111158,
+      9.103479056617976
+    ],
+    "rotation": 5.162091473318018,
+    "scale": 0.8753390439534708
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -52.46441403366091,
+      -1.0823532820202502,
+      9.308325818933149
+    ],
+    "rotation": 0.7282699910464383,
+    "scale": 1.1679361316741623
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      58.590707528424815,
+      0.6089946944628721,
+      9.617758532595827
+    ],
+    "rotation": 1.6121373393060043,
+    "scale": 0.8611836067357626
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -48.63675291244775,
+      -27.49303839149727,
+      6.706013454567488
+    ],
+    "rotation": 1.8503006768896089,
+    "scale": 1.2007092328009106
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      48.71264838023612,
+      -46.780857150565566,
+      9.248032050243078
+    ],
+    "rotation": 1.2363625452183493,
+    "scale": 1.1901081140939604
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      46.17003619740673,
+      2.348896395658187,
+      5.937932759229185
+    ],
+    "rotation": 0.41422882722912896,
+    "scale": 0.8231535650643137
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -53.16783731767599,
+      -37.4964771293897,
+      9.856132861245257
+    ],
+    "rotation": 0.8628028342169421,
+    "scale": 1.0846383115968166
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      45.88295872389335,
+      -30.258922313602163,
+      5.735847710280776
+    ],
+    "rotation": 0.7847732796789105,
+    "scale": 0.7847458490769864
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -46.050056581400725,
+      -44.232386141698285,
+      8.136357309759735
+    ],
+    "rotation": 0.6233922391299901,
+    "scale": 1.2641352919845645
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      53.01772180035143,
+      -4.096114359412404,
+      8.366563120019322
+    ],
+    "rotation": 6.263788306702866,
+    "scale": 1.2327144174116458
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      56.4908316067515,
+      24.55650155046534,
+      10.51993535768176
+    ],
+    "rotation": 3.512685977545426,
+    "scale": 0.7879199232784313
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -47.246135882591766,
+      -10.069268413728018,
+      3.205704898241465
+    ],
+    "rotation": 6.253888472875139,
+    "scale": 1.0299208208373867
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      44.400817454558315,
+      -6.138965662262088,
+      6.29639513389859
+    ],
+    "rotation": 4.748353235796011,
+    "scale": 0.8028925019422075
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -44.04247377901989,
+      -0.2849668903858884,
+      5.12076477676587
+    ],
+    "rotation": 2.481495657134846,
+    "scale": 1.2552632504749448
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      58.92655832693436,
+      34.214539560244845,
+      9.883843922009648
+    ],
+    "rotation": 5.205508782101581,
+    "scale": 1.2508010972919643
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -44.71902303734358,
+      34.72031625261393,
+      5.0
+    ],
+    "rotation": 4.186528089695248,
+    "scale": 1.1884540481693884
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      50.997523281024684,
+      8.054179427880001,
+      7.4387223088130305
+    ],
+    "rotation": 1.1664223169946906,
+    "scale": 1.0040642918964864
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -49.66110436031603,
+      -38.7130925637361,
+      8.700508831539317
+    ],
+    "rotation": 0.5292928834727991,
+    "scale": 0.929278990952458
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      44.76901506572808,
+      -22.160677208411354,
+      5.929140106667257
+    ],
+    "rotation": 3.6179923560986698,
+    "scale": 0.9733447458667132
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      54.90838984371487,
+      -21.819140141490777,
+      9.913588770970403
+    ],
+    "rotation": 2.334735042771298,
+    "scale": 1.1398577618787413
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      -57.103590443437774,
+      -12.433676089212966,
+      9.724788046832055
+    ],
+    "rotation": 2.1097207439262093,
+    "scale": 1.1761892202544226
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      55.41390068554324,
+      3.174480992196848,
+      8.627395915821552
+    ],
+    "rotation": 5.955676056693746,
+    "scale": 1.2963076497643125
+  },
+  {
+    "asset": "valley_tree_broadleaf_a",
+    "position": [
+      -50.46190839381805,
+      -26.924240049386277,
+      7.2861826047032165
+    ],
+    "rotation": 4.526404594815625,
+    "scale": 1.0677099370782814
+  },
+  {
+    "asset": "valley_tree_broadleaf_b",
+    "position": [
+      44.50195495502994,
+      -7.663071662303565,
+      6.441434552046294
+    ],
+    "rotation": 2.2089641294513496,
+    "scale": 0.818520775724098
+  },
+  {
+    "asset": "valley_tree_broadleaf_c",
+    "position": [
+      -52.359604413538804,
+      28.108983901038997,
+      6.6733451331499225
+    ],
+    "rotation": 3.9976898396431317,
+    "scale": 0.9864740156087418
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      1.3999856995144144,
+      -38.61382559448501,
+      0.6507329346882369
+    ],
+    "rotation": 6.1206010594645175,
+    "scale": 1.2043274958950925
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      9.356958239606662,
+      48.45691594996866,
+      1.8520400694268306
+    ],
+    "rotation": 5.943986954850855,
+    "scale": 1.2481953085882664
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -11.212681590635114,
+      -44.98746738619198,
+      1.3837787758799274
+    ],
+    "rotation": 0.39677869410690336,
+    "scale": 1.0023456719302368
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      1.2877055988725115,
+      -44.57899282697147,
+      1.3314794187262335
+    ],
+    "rotation": 0.5438977724232602,
+    "scale": 1.1408369980395752
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -3.5141546003716755,
+      4.925925018836388,
+      0.24
+    ],
+    "rotation": 5.40259025296422,
+    "scale": 0.9989637671097484
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -4.921727281728309,
+      2.436341094792823,
+      0.24
+    ],
+    "rotation": 2.681954604864157,
+    "scale": 0.9307155068460511
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      1.829820773681773,
+      -10.286488114073713,
+      0.24
+    ],
+    "rotation": 5.6236289149638035,
+    "scale": 1.1780521990089108
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      10.462792803087623,
+      45.90910366761932,
+      1.5040658853722553
+    ],
+    "rotation": 0.6427920625457911,
+    "scale": 1.1411804193351438
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      0.24047809787344043,
+      33.792260047058434,
+      0.2629515902315003
+    ],
+    "rotation": 4.475850795709521,
+    "scale": 0.9659929898257726
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      0.9638450609375724,
+      -30.778230596443514,
+      0.24
+    ],
+    "rotation": 3.317495391363308,
+    "scale": 1.0376087406989516
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -12.480141861610502,
+      -39.15252253852005,
+      0.7048168137324876
+    ],
+    "rotation": 4.489821136284328,
+    "scale": 1.0550321483528369
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -4.657308684869852,
+      4.075266386453649,
+      0.24
+    ],
+    "rotation": 5.366948715879499,
+    "scale": 1.213720290102232
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      11.688232298697587,
+      21.038871411620747,
+      0.24
+    ],
+    "rotation": 0.4373853183855209,
+    "scale": 1.1714618162806478
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -10.746315133798301,
+      -45.951911729473515,
+      1.509728079202474
+    ],
+    "rotation": 4.076655706438949,
+    "scale": 1.0582799205610174
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      11.91618957680478,
+      29.60190433503668,
+      0.24
+    ],
+    "rotation": 5.033273829406751,
+    "scale": 1.0899846551389396
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -9.6913353801333,
+      -48.7252893912298,
+      1.889940048142162
+    ],
+    "rotation": 2.8033419675367046,
+    "scale": 0.9814969544063558
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      10.022854812888522,
+      9.807071490168141,
+      0.24
+    ],
+    "rotation": 0.70964356867855,
+    "scale": 0.9659401886305081
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      1.0755180605647467,
+      -38.92079115033465,
+      0.6813393419467562
+    ],
+    "rotation": 3.9028360057415377,
+    "scale": 0.9324731568288158
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      0.5692828324669028,
+      -32.680561687405195,
+      0.24
+    ],
+    "rotation": 0.9475162887757945,
+    "scale": 0.9023378486641458
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -9.792858128861132,
+      -49.747388974242504,
+      2.036340188565527
+    ],
+    "rotation": 0.202004321006078,
+    "scale": 1.1073648157539762
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      10.82018980681508,
+      30.821473730072555,
+      0.24
+    ],
+    "rotation": 4.525079131542886,
+    "scale": 1.202221246450086
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      1.0552144297620796,
+      -24.012063648215165,
+      0.24
+    ],
+    "rotation": 1.974282688132287,
+    "scale": 0.9298556589837091
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -11.078176559507895,
+      -40.75940387807053,
+      0.8758113466122799
+    ],
+    "rotation": 5.394294554400925,
+    "scale": 1.12603371159066
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      1.9059110027508774,
+      -42.58984999973862,
+      1.0862641442972614
+    ],
+    "rotation": 4.751730632399071,
+    "scale": 1.0458023252941293
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      0.003853236625134926,
+      -27.654312033464667,
+      0.24
+    ],
+    "rotation": 6.1306591396100645,
+    "scale": 1.0669604324694917
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -10.930530045587737,
+      -41.6631230109261,
+      0.9777692345058151
+    ],
+    "rotation": 5.242250411942988,
+    "scale": 1.0908011808713185
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -10.523013727533025,
+      -31.871250721656875,
+      0.24
+    ],
+    "rotation": 2.2750401656829604,
+    "scale": 1.1437997178363344
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -4.916090356473565,
+      4.10351506313085,
+      0.24
+    ],
+    "rotation": 3.0609969886137423,
+    "scale": 0.8272294880888149
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -0.6554565844865081,
+      -24.03328322217879,
+      0.24
+    ],
+    "rotation": 4.36849745164461,
+    "scale": 1.2739688399849527
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -12.776641398603232,
+      -32.42767356665081,
+      0.24
+    ],
+    "rotation": 3.59369129046731,
+    "scale": 1.1145833661524631
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      10.957425297109776,
+      17.856586114020132,
+      0.24
+    ],
+    "rotation": 6.109045497768591,
+    "scale": 0.8948793668347825
+  },
+  {
+    "asset": "valley_reed_patch_b",
+    "position": [
+      -9.390588954910895,
+      -9.531577584436803,
+      0.24
+    ],
+    "rotation": 4.832999345982503,
+    "scale": 0.8006866732319342
+  },
+  {
+    "asset": "valley_reed_patch_a",
+    "position": [
+      -10.063195848557758,
+      -41.349439592960834,
+      0.9419357838238334
+    ],
+    "rotation": 1.7674060206821731,
+    "scale": 0.8610662625042864
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      -50.27879137291864,
+      -47.967748758268385,
+      9.632417219332416
+    ],
+    "rotation": 5.262962504410825,
+    "scale": 1.0880876377540076
+  },
+  {
+    "asset": "valley_rock_b",
+    "position": [
+      34.746763501591985,
+      47.00731490107242,
+      4.246043126460184
+    ],
+    "rotation": 1.6335047775324378,
+    "scale": 1.2238839880347294
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      24.19912492331781,
+      -12.222597480016887,
+      0.7649149600979561
+    ],
+    "rotation": 1.9875891850529088,
+    "scale": 1.105882446132194
+  },
+  {
+    "asset": "valley_rock_e",
+    "position": [
+      43.46370847541337,
+      -14.61951346518579,
+      6.140954141575868
+    ],
+    "rotation": 4.873494592325441,
+    "scale": 1.2204096394186381
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      -27.477295569883445,
+      44.12432298919944,
+      5.0
+    ],
+    "rotation": 1.3072126555076988,
+    "scale": 0.907362667920092
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      -14.012689283237926,
+      26.480460145063518,
+      0.24
+    ],
+    "rotation": 3.653887469029076,
+    "scale": 0.8373754343084373
+  },
+  {
+    "asset": "valley_rock_a",
+    "position": [
+      -44.013469746328894,
+      38.23265773186216,
+      5.0
+    ],
+    "rotation": 5.060692719102703,
+    "scale": 1.1700874248739248
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      49.9935331625706,
+      23.029860919808925,
+      8.468796758492655
+    ],
+    "rotation": 5.224462319677143,
+    "scale": 0.961094234222046
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      46.7421063485736,
+      34.826813548436235,
+      6.590227920122617
+    ],
+    "rotation": 1.4584983981722108,
+    "scale": 0.7495801374486978
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      -49.140034819328356,
+      39.75758605967641,
+      5.0
+    ],
+    "rotation": 2.385529089990982,
+    "scale": 0.894127487278181
+  },
+  {
+    "asset": "valley_rock_b",
+    "position": [
+      35.92442433530107,
+      -46.26892946941551,
+      5.169193387878814
+    ],
+    "rotation": 5.54391548416007,
+    "scale": 0.8997636015806898
+  },
+  {
+    "asset": "valley_rock_e",
+    "position": [
+      29.7968308846892,
+      -33.5238513039514,
+      2.001550670734394
+    ],
+    "rotation": 1.7582815847861109,
+    "scale": 0.8354397152614557
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      -34.656422743482636,
+      5.482420018898182,
+      2.2018158889895236
+    ],
+    "rotation": 2.1854697084264902,
+    "scale": 0.8671526296771674
+  },
+  {
+    "asset": "valley_rock_a",
+    "position": [
+      -50.74438568754844,
+      30.209332271783822,
+      5.352906540567576
+    ],
+    "rotation": 3.1716965139130076,
+    "scale": 1.0018389919844854
+  },
+  {
+    "asset": "valley_rock_d",
+    "position": [
+      19.840123425550075,
+      5.323070852799233,
+      0.24
+    ],
+    "rotation": 4.347007900309828,
+    "scale": 1.0034886827267269
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      43.776959539058154,
+      -24.400394138458072,
+      5.381322565982256
+    ],
+    "rotation": 3.8168081836250813,
+    "scale": 1.0860611550501533
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      33.55493988589389,
+      -10.322896489413665,
+      3.121982070948235
+    ],
+    "rotation": 1.0092090452107538,
+    "scale": 0.981826292540505
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      -52.422613578427274,
+      -1.4559134729328491,
+      9.308201555594291
+    ],
+    "rotation": 1.0043915557491339,
+    "scale": 1.1341469347135846
+  },
+  {
+    "asset": "valley_rock_c",
+    "position": [
+      15.965880413935295,
+      -18.80324126544162,
+      0.24
+    ],
+    "rotation": 0.4227902715631149,
+    "scale": 0.9480270806211981
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      21.92874554526523,
+      -33.63377240942544,
+      0.41938442449413976
+    ],
+    "rotation": 3.805206969075259,
+    "scale": 0.9149223911892319
+  },
+  {
+    "asset": "valley_shrub_c",
+    "position": [
+      -51.519277702641475,
+      15.698234245889395,
+      7.395578427989053
+    ],
+    "rotation": 5.717341506617195,
+    "scale": 1.001839647212815
+  },
+  {
+    "asset": "valley_shrub_b",
+    "position": [
+      32.19985425777571,
+      -36.89204161784954,
+      2.923806336581232
+    ],
+    "rotation": 1.3896749515483011,
+    "scale": 1.1600090964285168
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      -20,
+      -25,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      -19,
+      -24.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      -20,
+      -4,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      -19,
+      -3.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      -32,
+      -31,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      -31,
+      -30.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      22,
+      9,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      23,
+      9.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      19,
+      28,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      20,
+      28.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_flower_patch_a",
+    "position": [
+      -13,
+      31,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.6
+  },
+  {
+    "asset": "valley_flower_patch_b",
+    "position": [
+      -12,
+      31.5,
+      0.24
+    ],
+    "rotation": 0,
+    "scale": 1.4
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -18.343152736709513,
+      -38.45815770069099,
+      0.6354323526024924
+    ],
+    "rotation": 0.5767673012112375,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      7.358179904663188,
+      -31.593781276898383,
+      0.24
+    ],
+    "rotation": 1.1320205899974507,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -14.648706677610912,
+      -2.343991550204187,
+      0.24
+    ],
+    "rotation": 4.730465801164092,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      18.410743812995136,
+      34.40057882908417,
+      0.24207547785312164
+    ],
+    "rotation": 0.9182892049440208,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -8.063081533328614,
+      26.76552736574581,
+      0.24
+    ],
+    "rotation": 0.916647770245074,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -7.23451858198933,
+      29.361801217732747,
+      0.24
+    ],
+    "rotation": 2.9725942726839154,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -9.41595793883933,
+      12.276347599886535,
+      0.24
+    ],
+    "rotation": 5.734166900609271,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      18.152534914725074,
+      19.40030947354527,
+      0.24
+    ],
+    "rotation": 2.6933897321836344,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -9.954762820438532,
+      11.695812615717287,
+      0.24
+    ],
+    "rotation": 3.3764786476492916,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -10.218269323826249,
+      12.590936015388806,
+      0.24
+    ],
+    "rotation": 2.631114400898136,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -14.683313155431609,
+      -6.071764958710524,
+      0.24
+    ],
+    "rotation": 1.0540127189376494,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      7.601759652638926,
+      -27.853064500357387,
+      0.24
+    ],
+    "rotation": 3.607494586853004,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -11.431988293824883,
+      6.247881906476742,
+      0.24
+    ],
+    "rotation": 6.232631907278792,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -18.618071846231707,
+      -34.11358565667221,
+      0.24887057410034938
+    ],
+    "rotation": 0.5787478602541491,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -19.607044812475014,
+      -31.715600128511202,
+      0.24
+    ],
+    "rotation": 2.365524244535624,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -19.190821394294844,
+      -35.30211673923394,
+      0.2849268789177872
+    ],
+    "rotation": 2.4991360181083433,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      13.92227576600111,
+      2.7995478838055874,
+      0.24
+    ],
+    "rotation": 5.468683184955143,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -7.58712216579466,
+      32.410252932315686,
+      0.24
+    ],
+    "rotation": 5.681932949124414,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      8.100522724970201,
+      -36.83582524058398,
+      0.48562320182163937
+    ],
+    "rotation": 6.223944291864376,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      18.895381806709,
+      25.557575509115793,
+      0.24
+    ],
+    "rotation": 5.378212333825505,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      15.297915384833287,
+      9.609239098958405,
+      0.24
+    ],
+    "rotation": 2.298200283688623,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      -18.08915434970864,
+      -24.74560447343833,
+      0.24
+    ],
+    "rotation": 2.4473244398971525,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -19.035039306966354,
+      -25.797229379916118,
+      0.24
+    ],
+    "rotation": 4.173643201211395,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      12.1674914833497,
+      -1.8760302097505956,
+      0.24
+    ],
+    "rotation": 5.152532824847278,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_a",
+    "position": [
+      -9.890804185272918,
+      9.96145901619785,
+      0.24
+    ],
+    "rotation": 0.8457305063574458,
+    "scale": 1
+  },
+  {
+    "asset": "valley_grass_patch_b",
+    "position": [
+      9.497094632044583,
+      -10.966638497329495,
+      0.24
+    ],
+    "rotation": 1.8288407009959124,
+    "scale": 1
+  }
+]

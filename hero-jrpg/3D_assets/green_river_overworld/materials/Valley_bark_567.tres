@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://3D_assets/green_river_overworld/models/overworld_cave_valley_bark_1.png" id="1_vg2iw"]
+
+[resource]
+resource_name = "Valley_bark_567"
+cull_mode = 2
+albedo_texture = ExtResource("1_vg2iw")
+roughness = 0.88
+texture_filter = 5
+metadata/_gltf_primary_texture_coord = 0
